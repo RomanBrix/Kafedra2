@@ -1,0 +1,62 @@
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+.news-is .content-for-events {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .news-is .content-for-events .left, .news-is .content-for-events .right {
+    flex: 45%; }
+  .news-is .content-for-events .all {
+    flex: 100%; }
+  .news-is .content-for-events .right .preview-event {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between; }
+    .news-is .content-for-events .right .preview-event .article {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      flex: 100%;
+      margin: 20px 0;
+      transition: .25s; }
+      .news-is .content-for-events .right .preview-event .article .date-logo {
+        color: white;
+        margin-right: 20px;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        background: #f73d53;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: .25s; }
+        .news-is .content-for-events .right .preview-event .article .date-logo .number {
+          font-family: "ProximaNova-Bold";
+          font-size: 1.4em; }
+        .news-is .content-for-events .right .preview-event .article .date-logo .month {
+          font-family: "Roboto-Light";
+          font-size: .8em; }
+      .news-is .content-for-events .right .preview-event .article .title {
+        max-width: 70%;
+        font-family: "Roboto-Light";
+        line-height: 20px;
+        letter-spacing: -0.5px; }
+      .news-is .content-for-events .right .preview-event .article:hover {
+        transform: scale(1.02);
+        filter: drop-shadow(0px 0px 10px rgba(127, 126, 129, 0.3)); }
+        .news-is .content-for-events .right .preview-event .article:hover .date-logo {
+          background: #5326d3; }

@@ -1,0 +1,133 @@
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+.graph-article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 25px;
+  box-sizing: border-box; }
+  .graph-article .content {
+    background: white;
+    box-sizing: border-box;
+    padding: 25px;
+    width: 100%; }
+    .graph-article .content .hello {
+      cursor: pointer;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      justify-content: flex-start;
+      position: relative; }
+      .graph-article .content .hello i {
+        font-size: 1.5em;
+        color: #5326d3;
+        margin-bottom: -5px;
+        transition: .25s; }
+      .graph-article .content .hello .img {
+        background: no-repeat center 0px;
+        background-size: cover;
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 0 7px 1px rgba(37, 43, 51, 0.4);
+        transition: .25s; }
+      .graph-article .content .hello .name {
+        font-size: 1.1em;
+        transition: .25s; }
+      .graph-article .content .hello:hover i {
+        transform: scale(1.4); }
+      .graph-article .content .hello:hover .img {
+        transform: scale(0.8); }
+    .graph-article .content .consult h2 {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      box-sizing: border-box;
+      width: 100%;
+      position: relative; }
+      .graph-article .content .consult h2 .underline {
+        padding-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #5326d3;
+        border-bottom: 3px solid #341690; }
+      .graph-article .content .consult h2:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: #cecdd0;
+        bottom: 0;
+        left: 0; }
+    .graph-article .content .publ-lessons h2 {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      box-sizing: border-box;
+      width: 100%;
+      position: relative; }
+      .graph-article .content .publ-lessons h2 .underline {
+        padding-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #5326d3;
+        border-bottom: 3px solid #341690; }
+      .graph-article .content .publ-lessons h2:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: #cecdd0;
+        bottom: 0;
+        left: 0; }
+    .graph-article .content .publ-lessons .pub-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between; }
+      .graph-article .content .publ-lessons .pub-container .open-lessons {
+        flex: 30%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 30%;
+        min-height: 150px;
+        padding: 15px 25px;
+        border: 1px solid;
+        border-radius: 16px;
+        box-shadow: 0 0 10px 1px rgba(37, 43, 51, 0.2); }
+        .graph-article .content .publ-lessons .pub-container .open-lessons .photo {
+          margin-right: 15px; }
+          .graph-article .content .publ-lessons .pub-container .open-lessons .photo img {
+            width: 75px; }
+        .graph-article .content .publ-lessons .pub-container .open-lessons .descr h3 {
+          margin: 0; }
+        .graph-article .content .publ-lessons .pub-container .open-lessons .descr h4 {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin: 0; }
+          .graph-article .content .publ-lessons .pub-container .open-lessons .descr h4 i {
+            margin-right: 5px;
+            margin-bottom: -5px;
+            font-size: 1.2em;
+            color: #5326d3; }
+            .graph-article .content .publ-lessons .pub-container .open-lessons .descr h4 i:last-child {
+              margin-left: 10px;
+              color: #f73d53; }
+        .graph-article .content .publ-lessons .pub-container .open-lessons .descr p {
+          margin: 7px 0; }
+  @media only screen and (max-width: 376px) {
+    .graph-article {
+      padding: 0px 20px; }
+      .graph-article .content {
+        padding: 40px 20px; } }

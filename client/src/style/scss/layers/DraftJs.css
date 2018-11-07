@@ -1,0 +1,12 @@
+.DraftJsTextEditor {
+  width: 100%;
+  min-height: 150px; }
+  .DraftJsTextEditor .DraftEditor-root {
+    width: 100%;
+    min-height: 150px; }
+    .DraftJsTextEditor .DraftEditor-root .DraftEditor-editorContainer {
+      width: 100%;
+      min-height: 150px; }
+      .DraftJsTextEditor .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content {
+        width: 100%;
+        min-height: 150px; }

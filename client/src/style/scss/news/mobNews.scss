@@ -1,0 +1,49 @@
+.news{
+  .news-container {
+    h2 {
+      .underline{
+      }
+      .little-head {
+        i{
+        }
+        &:hover{
+          i{
+          }
+        }
+      }
+      &:after{
+      }
+    }
+
+
+    .article-container{
+      .article{
+        .img{
+          .tag{
+          }
+
+          .green-tag{
+          }
+          .pink-tag{
+          }
+        }
+
+        .date{
+          i{
+            &:last-child{
+            }
+          }
+        }
+        .short-desc{
+        }
+
+        &:hover{
+          .date{
+            i{
+              }
+            }
+          }
+        }
+      }
+    }
+}

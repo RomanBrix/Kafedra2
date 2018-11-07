@@ -1,0 +1,130 @@
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+.contacts {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 50px; }
+  .contacts .contacts-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; }
+    .contacts .contacts-container .msg-form {
+      flex: 45%;
+      width: 45%;
+      max-width: 45%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .contacts .contacts-container .msg-form textarea, .contacts .contacts-container .msg-form input {
+        margin-bottom: 10px;
+        border: 1px solid transparent;
+        box-shadow: 0 0 5px 0px rgba(11, 13, 15, 0.2);
+        padding: 10px 25px;
+        min-width: 250px;
+        outline: 0;
+        border-radius: 16px;
+        background: #eaeef1;
+        color: black;
+        transition: .25s; }
+        .contacts .contacts-container .msg-form textarea:focus, .contacts .contacts-container .msg-form textarea:active, .contacts .contacts-container .msg-form input:focus, .contacts .contacts-container .msg-form input:active {
+          background: rgba(0, 0, 0, 0.7);
+          color: white;
+          border-color: #f73d53; }
+        .contacts .contacts-container .msg-form textarea::placeholder, .contacts .contacts-container .msg-form input::placeholder {
+          color: #9998a7; }
+      .contacts .contacts-container .msg-form textarea {
+        resize: none;
+        height: 175px; }
+      .contacts .contacts-container .msg-form .btn-send {
+        padding: 7px 25px;
+        background: #5326d3;
+        color: white;
+        border-radius: 16px;
+        box-shadow: 0 0 5px 0px rgba(11, 13, 15, 0.2);
+        cursor: pointer;
+        transition: .25s; }
+        .contacts .contacts-container .msg-form .btn-send:hover {
+          background: #f73d53; }
+    .contacts .contacts-container .contact {
+      flex: 45%;
+      width: 45%;
+      max-width: 45%; }
+      .contacts .contacts-container .contact .top .mini-socials {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .contacts .contacts-container .contact .top .mini-socials a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none; }
+          .contacts .contacts-container .contact .top .mini-socials a li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            font-size: 1.3em;
+            transition: .25s;
+            border-radius: 50%;
+            background: #5326d3;
+            box-shadow: 0 0 5px 0px rgba(11, 13, 15, 0.2); }
+            .contacts .contacts-container .contact .top .mini-socials a li i {
+              color: white;
+              margin-bottom: -7px;
+              transition: .25s; }
+          .contacts .contacts-container .contact .top .mini-socials a:hover li {
+            background: #f73d53; }
+      .contacts .contacts-container .contact .top .more {
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column; }
+        .contacts .contacts-container .contact .top .more a {
+          text-decoration: none;
+          color: #7f7e81;
+          display: flex;
+          margin-bottom: 10px;
+          transition: .25s;
+          align-items: flex-start;
+          font-family: "Roboto-Light";
+          font-size: .9em;
+          letter-spacing: -0.5px;
+          justify-content: flex-start; }
+          .contacts .contacts-container .contact .top .more a i {
+            font-size: 1.4em;
+            color: #5326d3;
+            margin-right: 10px;
+            transition: .25s; }
+          .contacts .contacts-container .contact .top .more a:hover {
+            color: black; }
+            .contacts .contacts-container .contact .top .more a:hover i {
+              color: #f73d53; }
+      .contacts .contacts-container .contact .bottom iframe {
+        width: 100%;
+        height: 350px;
+        box-shadow: 0 0 5px 0px rgba(11, 13, 15, 0.2); }
+  @media only screen and (max-width: 376px) {
+    .contacts {
+      padding: 20px 25px; }
+      .contacts .contacts-container {
+        flex-wrap: wrap; }
+        .contacts .contacts-container .msg-form {
+          width: 100%;
+          flex: 100%;
+          max-width: 100%;
+          margin-bottom: 50px; }
+        .contacts .contacts-container .contact {
+          width: 100%;
+          flex: 100%;
+          max-width: 100%; } }

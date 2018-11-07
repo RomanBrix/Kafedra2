@@ -1,0 +1,86 @@
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+.lecturers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 25px;
+  box-sizing: border-box; }
+  .lecturers .content {
+    background: white;
+    box-sizing: border-box;
+    padding: 25px;
+    width: 100%; }
+    .lecturers .content .lecturers-container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .lecturers .content .lecturers-container .article {
+        margin-bottom: 15px;
+        flex: 45%;
+        width: 45%;
+        min-width: 45%;
+        max-width: 45%;
+        min-height: 120px;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        position: relative; }
+        .lecturers .content .lecturers-container .article .img {
+          background: no-repeat center 0px;
+          background-size: cover;
+          margin-right: 50px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          box-shadow: 0 0 10px 1px rgba(37, 43, 51, 0.6); }
+          .lecturers .content .lecturers-container .article .img img {
+            width: 50px; }
+        .lecturers .content .lecturers-container .article .text {
+          position: absolute;
+          left: 120px;
+          width: calc(100% - 120px); }
+          .lecturers .content .lecturers-container .article .text .name {
+            font-family: "ProximaNova-Bold";
+            margin-bottom: 5px;
+            line-height: 24px;
+            font-size: 1.4em;
+            letter-spacing: -0.5px;
+            text-shadow: 0 0 10px rgba(37, 43, 51, 0.2); }
+          .lecturers .content .lecturers-container .article .text .desc {
+            font-family: "ProximaNova-Light"; }
+            .lecturers .content .lecturers-container .article .text .desc p {
+              line-height: 20px;
+              letter-spacing: -0.5px;
+              margin: 0;
+              padding: 0; }
+      .lecturers .content .lecturers-container .article-push {
+        cursor: pointer;
+        transition: .25s; }
+        .lecturers .content .lecturers-container .article-push:hover {
+          transform: scale(1.05); }
+  @media only screen and (max-width: 376px) {
+    .lecturers .content .lecturers-container .article {
+      flex: 100%;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 15px; }
+      .lecturers .content .lecturers-container .article .img {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px; }
+      .lecturers .content .lecturers-container .article .text {
+        width: calc(100% - 85px);
+        left: 85px; }
+        .lecturers .content .lecturers-container .article .text .name {
+          font-size: 1em; }
+        .lecturers .content .lecturers-container .article .text .desc {
+          font-size: .8em; } }

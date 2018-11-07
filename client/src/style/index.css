@@ -1,0 +1,2565 @@
+@charset "UTF-8";
+/* DayPicker styles */
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+.DayPicker {
+  display: inline-block;
+  font-size: 1rem; }
+
+.DayPicker-wrapper {
+  position: relative;
+  flex-direction: row;
+  padding-bottom: 1em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.DayPicker-Months {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.DayPicker-Month {
+  display: table;
+  margin: 0 1em;
+  margin-top: 1em;
+  border-spacing: 0;
+  border-collapse: collapse;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.DayPicker-NavButton {
+  position: absolute;
+  top: 1em;
+  right: 1.5em;
+  left: auto;
+  display: inline-block;
+  margin-top: 2px;
+  width: 1.25em;
+  height: 1.25em;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  color: #8B9898;
+  cursor: pointer; }
+
+.DayPicker-NavButton:hover {
+  opacity: 0.8; }
+
+.DayPicker-NavButton--prev {
+  margin-right: 1.5em;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAVVJREFUWAnN2G0KgjAYwPHpGfRkaZeqvgQaK+hY3SUHrk1YzNLay/OiEFp92I+/Mp2F2Mh2lLISWnflFjzH263RQjzMZ19wgs73ez0o1WmtW+dgA01VxrE3p6l2GLsnBy1VYQOtVSEH/atCCgqpQgKKqYIOiq2CBkqtggLKqQIKgqgCBjpJ2Y5CdJ+zrT9A7HHSTA1dxUdHgzCqJIEwq0SDsKsEg6iqBIEoq/wEcVRZBXFV+QJxV5mBtlDFB5VjYTaGZ2sf4R9PM7U9ZU+lLuaetPP/5Die3ToO1+u+MKtHs06qODB2zBnI/jBd4MPQm1VkY79Tb18gB+C62FdBFsZR6yeIo1YQiLJWMIiqVjQIu1YSCLNWFgijVjYIuhYYCKoWKAiiFgoopxYaKLUWOii2FgkophYp6F3r42W5A9s9OcgNvva8xQaysKXlFytoqdYmQH6tF3toSUo0INq9AAAAAElFTkSuQmCC"); }
+
+.DayPicker-NavButton--next {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAXRJREFUWAnN119ugjAcwPHWzJ1gnmxzB/BBE0n24m4xfNkTaOL7wOtsl3AXMMb+Vjaa1BG00N8fSEibPpAP3xAKKs2yjzTPH9RAjhEo9WzPr/Vm8zgE0+gXATAxxuxtqeJ9t5tIwv5AtQAApsfT6TPdbp+kUBcgVwvO51KqVhMkXKsVJFXrOkigVhCIs1Y4iKlWZxB1rX4gwlpRIIpa8SDkWmggrFq4IIRaJKCYWnSgnrXIQV1r8YD+1Vrn+bReagysIFfLABRt31v8oBu1xEBttfRbltmfjgEcWh9snUS2kNdBK6WN1vrOWxObWsz+fjxevsxmB1GQDfINWiev83nhaoiB/CoOU438oPrhXS0WpQ9xc1ZQWxWHqUYe0I0qrKCQKjygDlXIQV2r0IF6ViEBxVTBBSFUQQNhVYkHIVeJAtkNsbQ7c1LtzP6FsObhb2rCKv7NBIGoq4SDmKoEgTirXAcJVGkFSVVpgoSrXICGUMUH/QBZNSUy5XWUhwAAAABJRU5ErkJggg=="); }
+
+.DayPicker-NavButton--interactionDisabled {
+  display: none; }
+
+.DayPicker-Caption {
+  display: table-caption;
+  margin-bottom: 0.5em;
+  padding: 0 0.5em;
+  text-align: left; }
+
+.DayPicker-Caption > div {
+  font-weight: 500;
+  font-size: 1.15em; }
+
+.DayPicker-Weekdays {
+  display: table-header-group;
+  margin-top: 1em; }
+
+.DayPicker-WeekdaysRow {
+  display: table-row; }
+
+.DayPicker-Weekday {
+  display: table-cell;
+  padding: 0.5em;
+  color: #8B9898;
+  text-align: center;
+  font-size: 0.875em; }
+
+.DayPicker-Weekday abbr[title] {
+  border-bottom: none;
+  text-decoration: none; }
+
+.DayPicker-Body {
+  display: table-row-group; }
+
+.DayPicker-Week {
+  display: table-row; }
+
+.DayPicker-Day {
+  display: table-cell;
+  padding: 0.5em;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer; }
+
+.DayPicker-WeekNumber {
+  display: table-cell;
+  padding: 0.5em;
+  min-width: 1em;
+  border-right: 1px solid #EAECEC;
+  color: #8B9898;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 0.75em;
+  cursor: pointer; }
+
+.DayPicker--interactionDisabled .DayPicker-Day {
+  cursor: default; }
+
+.DayPicker-Footer {
+  padding-top: 0.5em; }
+
+.DayPicker-TodayButton {
+  border: none;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  color: #4A90E2;
+  font-size: 0.875em;
+  cursor: pointer; }
+
+/* Default modifiers */
+.DayPicker-Day--today {
+  color: #D0021B;
+  font-weight: 700; }
+
+.DayPicker-Day--outside {
+  color: #8B9898;
+  cursor: default; }
+
+.DayPicker-Day--disabled {
+  color: #DCE0E0;
+  cursor: default;
+  /* background-color: #eff1f1; */ }
+
+/* Example modifiers */
+.DayPicker-Day--sunday {
+  background-color: #F7F8F8; }
+
+.DayPicker-Day--sunday:not(.DayPicker-Day--today) {
+  color: #DCE0E0; }
+
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  position: relative;
+  background-color: #4A90E2;
+  color: #F0F8FF; }
+
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):hover {
+  background-color: #51A0FA; }
+
+.DayPicker:not(.DayPicker--interactionDisabled)
+.DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+  background-color: #F0F8FF; }
+
+/* DayPickerInput */
+.DayPickerInput {
+  display: inline-block; }
+
+.DayPickerInput-OverlayWrapper {
+  position: relative; }
+
+.DayPickerInput-Overlay {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Roboto-Regular", "ProximaNova-Regular";
+  box-sizing: border-box;
+  background: #f4f2f2; }
+  html #root .App, body #root .App {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+    html #root .App .mini-header, body #root .App .mini-header {
+      background: #341690;
+      color: #f4f2f2;
+      width: 100%;
+      display: flex;
+      align-items: stretch;
+      box-sizing: border-box;
+      justify-content: space-between;
+      padding: 0 50px; }
+      html #root .App .mini-header .mini-menu, html #root .App .mini-header .mini-socials, body #root .App .mini-header .mini-menu, body #root .App .mini-header .mini-socials {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 0; }
+        html #root .App .mini-header .mini-menu a, html #root .App .mini-header .mini-socials a, body #root .App .mini-header .mini-menu a, body #root .App .mini-header .mini-socials a {
+          text-decoration: none;
+          padding: 0;
+          margin: 0;
+          color: inherit;
+          display: flex;
+          align-items: stretch;
+          justify-content: stretch; }
+        html #root .App .mini-header .mini-menu li, html #root .App .mini-header .mini-socials li, body #root .App .mini-header .mini-menu li, body #root .App .mini-header .mini-socials li {
+          cursor: pointer;
+          transition: .25s;
+          padding: 15px 20px 10px; }
+          html #root .App .mini-header .mini-menu li:hover, html #root .App .mini-header .mini-socials li:hover, body #root .App .mini-header .mini-menu li:hover, body #root .App .mini-header .mini-socials li:hover {
+            background: #5326d3;
+            color: white; }
+      html #root .App .mini-header .mini-menu, body #root .App .mini-header .mini-menu {
+        margin-left: -15px; }
+      html #root .App .mini-header .mini-socials, body #root .App .mini-header .mini-socials {
+        margin-right: -15px; }
+        html #root .App .mini-header .mini-socials li i, body #root .App .mini-header .mini-socials li i {
+          font-size: 1.3em;
+          transition: .25s; }
+        html #root .App .mini-header .mini-socials .language, body #root .App .mini-header .mini-socials .language {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative; }
+          html #root .App .mini-header .mini-socials .language i, body #root .App .mini-header .mini-socials .language i {
+            margin-bottom: -3px;
+            font-size: 1.2em; }
+          html #root .App .mini-header .mini-socials .language .submenu, body #root .App .mini-header .mini-socials .language .submenu {
+            z-index: 100;
+            display: none;
+            position: absolute;
+            width: 100%;
+            top: 100%;
+            margin: 0;
+            padding: 0;
+            left: 0;
+            background: #5326d3;
+            border-top: 1px solid #341690; }
+            html #root .App .mini-header .mini-socials .language .submenu li, body #root .App .mini-header .mini-socials .language .submenu li {
+              display: block;
+              text-align: center;
+              padding: 10px;
+              color: white;
+              background: #5326d3;
+              transition: .25s;
+              text-decoration: none; }
+              html #root .App .mini-header .mini-socials .language .submenu li:hover, body #root .App .mini-header .mini-socials .language .submenu li:hover {
+                background: #341690; }
+          html #root .App .mini-header .mini-socials .language:hover .submenu, body #root .App .mini-header .mini-socials .language:hover .submenu {
+            display: block; }
+      html #root .App .mini-header .header-feedback, body #root .App .mini-header .header-feedback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 50px;
+        left: 0;
+        overflow: hidden;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 1000;
+        cursor: pointer; }
+        html #root .App .mini-header .header-feedback .header-feedback-container, body #root .App .mini-header .header-feedback .header-feedback-container {
+          width: 200px;
+          border-bottom-right-radius: 6px;
+          border-bottom-left-radius: 6px;
+          cursor: default;
+          box-sizing: border-box;
+          padding: 10px 15px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column;
+          background: rgba(0, 0, 0, 0.6);
+          position: relative;
+          top: 0; }
+          html #root .App .mini-header .header-feedback .header-feedback-container input, body #root .App .mini-header .header-feedback .header-feedback-container input {
+            width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid black;
+            box-shadow: 0 0 5px 0px rgba(255, 255, 255, 0.2);
+            padding: 5px 10px;
+            box-sizing: border-box;
+            outline: 0;
+            border-radius: 6px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            transition: .25s; }
+            html #root .App .mini-header .header-feedback .header-feedback-container input:focus, html #root .App .mini-header .header-feedback .header-feedback-container input:active, body #root .App .mini-header .header-feedback .header-feedback-container input:focus, body #root .App .mini-header .header-feedback .header-feedback-container input:active {
+              border-color: white;
+              background: rgba(0, 0, 0, 0.7); }
+            html #root .App .mini-header .header-feedback .header-feedback-container input::placeholder, body #root .App .mini-header .header-feedback .header-feedback-container input::placeholder {
+              color: rgba(255, 255, 255, 0.7); }
+          html #root .App .mini-header .header-feedback .header-feedback-container textarea, body #root .App .mini-header .header-feedback .header-feedback-container textarea {
+            width: 100%;
+            resize: none;
+            margin-bottom: 20px;
+            border: 1px solid black;
+            box-shadow: 0 0 5px 0px rgba(255, 255, 255, 0.2);
+            padding: 5px 10px;
+            box-sizing: border-box;
+            outline: 0;
+            border-radius: 6px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            transition: .25s;
+            height: 75px; }
+            html #root .App .mini-header .header-feedback .header-feedback-container textarea:focus, html #root .App .mini-header .header-feedback .header-feedback-container textarea:active, body #root .App .mini-header .header-feedback .header-feedback-container textarea:focus, body #root .App .mini-header .header-feedback .header-feedback-container textarea:active {
+              border-color: white;
+              background: rgba(0, 0, 0, 0.7); }
+            html #root .App .mini-header .header-feedback .header-feedback-container textarea::placeholder, body #root .App .mini-header .header-feedback .header-feedback-container textarea::placeholder {
+              color: rgba(255, 255, 255, 0.7); }
+          html #root .App .mini-header .header-feedback .header-feedback-container .btn-send, body #root .App .mini-header .header-feedback .header-feedback-container .btn-send {
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 0 5px 0px rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 6px;
+            border: 1px solid black;
+            transition: .25s; }
+            html #root .App .mini-header .header-feedback .header-feedback-container .btn-send:hover, body #root .App .mini-header .header-feedback .header-feedback-container .btn-send:hover {
+              border-color: white; }
+          html #root .App .mini-header .header-feedback .header-feedback-container:after, body #root .App .mini-header .header-feedback .header-feedback-container:after {
+            content: '';
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            top: 0;
+            background: linear-gradient(90deg, #ef3434, #ef9134, #efef34, #91ef34, #34ef34, #34ef91, #34efef, #3491ef, #3434ef, #9134ef, #ef34ef, #ef3491, #ef3434); }
+    html #root .App .header, body #root .App .header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 25px 50px;
+      box-sizing: border-box;
+      box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+      background: white;
+      z-index: 10; }
+      html #root .App .header .logo a, body #root .App .header .logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black; }
+        html #root .App .header .logo a .img-logo img, body #root .App .header .logo a .img-logo img {
+          height: 80px;
+          margin-right: 15px; }
+        html #root .App .header .logo a .text-logo .top, body #root .App .header .logo a .text-logo .top {
+          text-transform: uppercase;
+          font-size: 1.5em;
+          margin-bottom: 5px;
+          font-family: "ProximaNova-Bold"; }
+        html #root .App .header .logo a .text-logo .bottom, body #root .App .header .logo a .text-logo .bottom {
+          font-size: .9em;
+          color: #313131;
+          font-family: "ProximaNova-LightIt"; }
+      html #root .App .header .menu ul, body #root .App .header .menu ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none; }
+        html #root .App .header .menu ul li, body #root .App .header .menu ul li {
+          transition: .25s;
+          background: transparent;
+          border-radius: 6px;
+          cursor: pointer; }
+          html #root .App .header .menu ul li a, body #root .App .header .menu ul li a {
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+            padding: 5px 15px;
+            color: inherit;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase; }
+            html #root .App .header .menu ul li a i, body #root .App .header .menu ul li a i {
+              margin-left: 5px;
+              margin-bottom: -5px;
+              font-size: .9em; }
+          html #root .App .header .menu ul li:hover, body #root .App .header .menu ul li:hover {
+            background: #f4f2f2;
+            color: #5326d3; }
+            html #root .App .header .menu ul li:hover a, body #root .App .header .menu ul li:hover a {
+              color: #5326d3; }
+          html #root .App .header .menu ul li .submenu, body #root .App .header .menu ul li .submenu {
+            display: none;
+            position: absolute;
+            width: 120px;
+            top: 37px;
+            left: 0;
+            background-color: white;
+            border: 1px solid red; }
+            html #root .App .header .menu ul li .submenu li, body #root .App .header .menu ul li .submenu li {
+              display: block;
+              padding: 10px;
+              color: white;
+              background-color: red;
+              text-decoration: none; }
+          html #root .App .header .menu ul li:hover .submenu, body #root .App .header .menu ul li:hover .submenu {
+            display: block; }
+    @media only screen and (max-width: 1200px) {
+      html #root .App .header .logo a .img-logo img, body #root .App .header .logo a .img-logo img {
+        height: 70px;
+        margin-right: 12px; }
+      html #root .App .header .logo a .text-logo .top, body #root .App .header .logo a .text-logo .top {
+        font-size: 1.3em; }
+      html #root .App .header .logo a .text-logo .bottom, body #root .App .header .logo a .text-logo .bottom {
+        font-size: .8em; }
+      html #root .App .header .menu, body #root .App .header .menu {
+        font-size: .8em; }
+        html #root .App .header .menu ul li a, body #root .App .header .menu ul li a {
+          text-decoration: none;
+          width: 100%;
+          height: 100%;
+          padding: 4px 11px;
+          color: inherit;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-transform: uppercase; }
+          html #root .App .header .menu ul li a i, body #root .App .header .menu ul li a i {
+            margin-left: 3px;
+            margin-bottom: -5px;
+            font-size: .9em; } }
+    html #root .App .mob-header, body #root .App .mob-header {
+      width: 100%;
+      margin-left: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      z-index: 999999999;
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      box-sizing: border-box;
+      transition: .25s;
+      background: rgba(0, 0, 0, 0.7); }
+      html #root .App .mob-header .close, body #root .App .mob-header .close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        color: white;
+        font-size: 1.4em;
+        font-family: "ProximaNova-Bold"; }
+      html #root .App .mob-header .logo, body #root .App .mob-header .logo {
+        color: white;
+        margin-top: 20px;
+        margin-left: 20px; }
+        html #root .App .mob-header .logo a, body #root .App .mob-header .logo a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          color: white; }
+          html #root .App .mob-header .logo a .img-logo img, body #root .App .mob-header .logo a .img-logo img {
+            height: 60px;
+            margin-right: 8px; }
+          html #root .App .mob-header .logo a .text-logo .top, body #root .App .mob-header .logo a .text-logo .top {
+            text-transform: uppercase;
+            font-size: .9em;
+            margin-bottom: 5px;
+            font-family: "ProximaNova-Bold"; }
+          html #root .App .mob-header .logo a .text-logo .bottom, body #root .App .mob-header .logo a .text-logo .bottom {
+            font-size: .8em;
+            color: white;
+            font-family: "ProximaNova-LightIt"; }
+      html #root .App .mob-header .menu, body #root .App .mob-header .menu {
+        width: 100%; }
+        html #root .App .mob-header .menu ul, body #root .App .mob-header .menu ul {
+          width: 100%;
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: stretch;
+          padding: 0;
+          margin-top: 15px;
+          text-align: center; }
+          html #root .App .mob-header .menu ul li, body #root .App .mob-header .menu ul li {
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 1.1em; }
+            html #root .App .mob-header .menu ul li a, body #root .App .mob-header .menu ul li a {
+              width: 100%;
+              color: white;
+              display: block;
+              text-align: center;
+              text-decoration: none; }
+    html #root .App .HeadOpen, body #root .App .HeadOpen {
+      margin-left: 0; }
+    html #root .App .main, body #root .App .main {
+      width: 100%;
+      /* DayPicker styles */
+      /* Default modifiers */
+      /* Example modifiers */
+      /* DayPickerInput */ }
+      html #root .App .main .slider, body #root .App .main .slider {
+        width: 100%;
+        height: 550px;
+        position: relative;
+        overflow: hidden; }
+        html #root .App .main .slider .arrow-left, html #root .App .main .slider .arrow-right, body #root .App .main .slider .arrow-left, body #root .App .main .slider .arrow-right {
+          position: absolute;
+          top: calc(50% - 25px);
+          width: 50px;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          font-size: 2em;
+          color: white;
+          background: rgba(83, 54, 211, 0.7);
+          transition: .25s;
+          cursor: pointer;
+          z-index: 2; }
+          html #root .App .main .slider .arrow-left i, html #root .App .main .slider .arrow-right i, body #root .App .main .slider .arrow-left i, body #root .App .main .slider .arrow-right i {
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+          html #root .App .main .slider .arrow-left:hover, html #root .App .main .slider .arrow-right:hover, body #root .App .main .slider .arrow-left:hover, body #root .App .main .slider .arrow-right:hover {
+            background: #5326d3; }
+        html #root .App .main .slider .arrow-left, body #root .App .main .slider .arrow-left {
+          left: 50px; }
+          html #root .App .main .slider .arrow-left i, body #root .App .main .slider .arrow-left i {
+            margin-left: -5px; }
+        html #root .App .main .slider .arrow-right, body #root .App .main .slider .arrow-right {
+          right: 50px; }
+          html #root .App .main .slider .arrow-right i, body #root .App .main .slider .arrow-right i {
+            margin-right: -5px; }
+        html #root .App .main .slider .slider-box, body #root .App .main .slider .slider-box {
+          width: 100%;
+          height: 100%;
+          display: flex; }
+          html #root .App .main .slider .slider-box .slide, body #root .App .main .slider .slider-box .slide {
+            transition: .35s;
+            width: 100%;
+            min-width: 100%;
+            height: 550px;
+            background: no-repeat center -10px;
+            background-size: cover; }
+        html #root .App .main .slider .settings-dots, body #root .App .main .slider .settings-dots {
+          z-index: 2;
+          position: absolute;
+          bottom: 75px;
+          left: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start; }
+          html #root .App .main .slider .settings-dots .dot, body #root .App .main .slider .settings-dots .dot {
+            border-radius: 50%;
+            width: 12px;
+            height: 12px;
+            background: white;
+            margin-right: 10px;
+            cursor: pointer; }
+            html #root .App .main .slider .settings-dots .dot:last-child, body #root .App .main .slider .settings-dots .dot:last-child {
+              margin-right: 0; }
+          html #root .App .main .slider .settings-dots .active-dot, body #root .App .main .slider .settings-dots .active-dot {
+            background: #5326d3; }
+        html #root .App .main .slider:after, body #root .App .main .slider:after {
+          z-index: 1;
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          box-shadow: inset -2px -200px 250px -70px rgba(0, 0, 0, 0.5); }
+        @media only screen and (max-width: 376px) {
+          html #root .App .main .slider .arrow-left, body #root .App .main .slider .arrow-left {
+            left: 25px; }
+          html #root .App .main .slider .arrow-right, body #root .App .main .slider .arrow-right {
+            right: 25px; }
+          html #root .App .main .slider .slider-box .slide, body #root .App .main .slider .slider-box .slide {
+            background: no-repeat center 0;
+            background-size: cover; }
+          html #root .App .main .slider .settings-dots, body #root .App .main .slider .settings-dots {
+            right: 25px;
+            left: auto; }
+            html #root .App .main .slider .settings-dots .dot, body #root .App .main .slider .settings-dots .dot {
+              width: 9px;
+              height: 9px;
+              margin-right: 7px; }
+            html #root .App .main .slider .settings-dots .active-dot, body #root .App .main .slider .settings-dots .active-dot {
+              background: #5326d3; } }
+      html #root .App .main .news, body #root .App .main .news {
+        width: 100%;
+        padding: 30px 50px;
+        box-sizing: border-box; }
+        html #root .App .main .news .news-container, body #root .App .main .news .news-container {
+          box-sizing: border-box;
+          width: 100%; }
+          html #root .App .main .news .news-container h2, body #root .App .main .news .news-container h2 {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            box-sizing: border-box;
+            width: 100%;
+            position: relative; }
+            html #root .App .main .news .news-container h2 .underline, body #root .App .main .news .news-container h2 .underline {
+              padding-bottom: 15px;
+              padding-left: 5px;
+              padding-right: 5px;
+              color: #5326d3;
+              border-bottom: 3px solid #341690; }
+            html #root .App .main .news .news-container h2 .little-head, body #root .App .main .news .news-container h2 .little-head {
+              color: #7f7e81;
+              font-size: .7em;
+              font-family: "Roboto-Light";
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+              transition: .25s; }
+              html #root .App .main .news .news-container h2 .little-head i, body #root .App .main .news .news-container h2 .little-head i {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: -3px;
+                margin-left: 15px;
+                transition: .25s; }
+              html #root .App .main .news .news-container h2 .little-head:hover, body #root .App .main .news .news-container h2 .little-head:hover {
+                color: #5326d3; }
+                html #root .App .main .news .news-container h2 .little-head:hover i, body #root .App .main .news .news-container h2 .little-head:hover i {
+                  color: #5326d3; }
+            html #root .App .main .news .news-container h2:after, body #root .App .main .news .news-container h2:after {
+              content: '';
+              position: absolute;
+              width: 100%;
+              height: 1px;
+              background: #cecdd0;
+              bottom: 0;
+              left: 0; }
+          html #root .App .main .news .news-container .article-container, body #root .App .main .news .news-container .article-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-top: 35px; }
+            html #root .App .main .news .news-container .article-container .article, body #root .App .main .news .news-container .article-container .article {
+              flex: 24%;
+              max-width: 23%;
+              cursor: pointer;
+              transition: .25s;
+              filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0)); }
+              html #root .App .main .news .news-container .article-container .article .img, body #root .App .main .news .news-container .article-container .article .img {
+                width: 100%;
+                height: 150px;
+                border-radius: 7px;
+                position: relative;
+                background: no-repeat center top;
+                background-size: cover; }
+                html #root .App .main .news .news-container .article-container .article .img .tag, body #root .App .main .news .news-container .article-container .article .img .tag {
+                  position: absolute;
+                  padding: 5px 20px;
+                  bottom: 10px;
+                  font-size: .9em;
+                  font-family: "Roboto-Light";
+                  right: 10px;
+                  border-radius: 10px;
+                  color: white;
+                  background: #00d78c; }
+                html #root .App .main .news .news-container .article-container .article .img .green-tag, body #root .App .main .news .news-container .article-container .article .img .green-tag {
+                  background: #46d700; }
+                html #root .App .main .news .news-container .article-container .article .img .pink-tag, body #root .App .main .news .news-container .article-container .article .img .pink-tag {
+                  background: #ff0081; }
+              html #root .App .main .news .news-container .article-container .article .date, body #root .App .main .news .news-container .article-container .article .date {
+                margin: 10px 0;
+                color: #7f7e81;
+                padding-left: 5px; }
+                html #root .App .main .news .news-container .article-container .article .date i, body #root .App .main .news .news-container .article-container .article .date i {
+                  margin-right: 10px; }
+              html #root .App .main .news .news-container .article-container .article .short-desc, body #root .App .main .news .news-container .article-container .article .short-desc {
+                padding-left: 5px; }
+              html #root .App .main .news .news-container .article-container .article:hover, body #root .App .main .news .news-container .article-container .article:hover {
+                filter: drop-shadow(0px 0px 10px rgba(127, 126, 129, 0.7)); }
+        @media only screen and (max-width: 376px) {
+          html #root .App .main .news, body #root .App .main .news {
+            padding: 30px 25px; }
+            html #root .App .main .news .news-container .article-container, body #root .App .main .news .news-container .article-container {
+              flex-wrap: wrap; }
+              html #root .App .main .news .news-container .article-container .article, body #root .App .main .news .news-container .article-container .article {
+                flex: 100%;
+                min-width: 100%;
+                width: 100%;
+                margin-bottom: 25px; } }
+      html #root .App .main .DayPicker, body #root .App .main .DayPicker {
+        display: inline-block;
+        font-size: 1rem; }
+      html #root .App .main .DayPicker-wrapper, body #root .App .main .DayPicker-wrapper {
+        position: relative;
+        flex-direction: row;
+        padding-bottom: 1em;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; }
+      html #root .App .main .DayPicker-Months, body #root .App .main .DayPicker-Months {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; }
+      html #root .App .main .DayPicker-Month, body #root .App .main .DayPicker-Month {
+        display: table;
+        margin: 0 1em;
+        margin-top: 1em;
+        border-spacing: 0;
+        border-collapse: collapse;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; }
+      html #root .App .main .DayPicker-NavButton, body #root .App .main .DayPicker-NavButton {
+        position: absolute;
+        top: 1em;
+        right: 1.5em;
+        left: auto;
+        display: inline-block;
+        margin-top: 2px;
+        width: 1.25em;
+        height: 1.25em;
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        color: #8B9898;
+        cursor: pointer; }
+      html #root .App .main .DayPicker-NavButton:hover, body #root .App .main .DayPicker-NavButton:hover {
+        opacity: 0.8; }
+      html #root .App .main .DayPicker-NavButton--prev, body #root .App .main .DayPicker-NavButton--prev {
+        margin-right: 1.5em;
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAVVJREFUWAnN2G0KgjAYwPHpGfRkaZeqvgQaK+hY3SUHrk1YzNLay/OiEFp92I+/Mp2F2Mh2lLISWnflFjzH263RQjzMZ19wgs73ez0o1WmtW+dgA01VxrE3p6l2GLsnBy1VYQOtVSEH/atCCgqpQgKKqYIOiq2CBkqtggLKqQIKgqgCBjpJ2Y5CdJ+zrT9A7HHSTA1dxUdHgzCqJIEwq0SDsKsEg6iqBIEoq/wEcVRZBXFV+QJxV5mBtlDFB5VjYTaGZ2sf4R9PM7U9ZU+lLuaetPP/5Die3ToO1+u+MKtHs06qODB2zBnI/jBd4MPQm1VkY79Tb18gB+C62FdBFsZR6yeIo1YQiLJWMIiqVjQIu1YSCLNWFgijVjYIuhYYCKoWKAiiFgoopxYaKLUWOii2FgkophYp6F3r42W5A9s9OcgNvva8xQaysKXlFytoqdYmQH6tF3toSUo0INq9AAAAAElFTkSuQmCC"); }
+      html #root .App .main .DayPicker-NavButton--next, body #root .App .main .DayPicker-NavButton--next {
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAXRJREFUWAnN119ugjAcwPHWzJ1gnmxzB/BBE0n24m4xfNkTaOL7wOtsl3AXMMb+Vjaa1BG00N8fSEibPpAP3xAKKs2yjzTPH9RAjhEo9WzPr/Vm8zgE0+gXATAxxuxtqeJ9t5tIwv5AtQAApsfT6TPdbp+kUBcgVwvO51KqVhMkXKsVJFXrOkigVhCIs1Y4iKlWZxB1rX4gwlpRIIpa8SDkWmggrFq4IIRaJKCYWnSgnrXIQV1r8YD+1Vrn+bReagysIFfLABRt31v8oBu1xEBttfRbltmfjgEcWh9snUS2kNdBK6WN1vrOWxObWsz+fjxevsxmB1GQDfINWiev83nhaoiB/CoOU438oPrhXS0WpQ9xc1ZQWxWHqUYe0I0qrKCQKjygDlXIQV2r0IF6ViEBxVTBBSFUQQNhVYkHIVeJAtkNsbQ7c1LtzP6FsObhb2rCKv7NBIGoq4SDmKoEgTirXAcJVGkFSVVpgoSrXICGUMUH/QBZNSUy5XWUhwAAAABJRU5ErkJggg=="); }
+      html #root .App .main .DayPicker-NavButton--interactionDisabled, body #root .App .main .DayPicker-NavButton--interactionDisabled {
+        display: none; }
+      html #root .App .main .DayPicker-Caption, body #root .App .main .DayPicker-Caption {
+        display: table-caption;
+        margin-bottom: 0.5em;
+        padding: 0 0.5em;
+        text-align: left; }
+      html #root .App .main .DayPicker-Caption > div, body #root .App .main .DayPicker-Caption > div {
+        font-weight: 500;
+        font-size: 1.15em; }
+      html #root .App .main .DayPicker-Weekdays, body #root .App .main .DayPicker-Weekdays {
+        display: table-header-group;
+        margin-top: 1em; }
+      html #root .App .main .DayPicker-WeekdaysRow, body #root .App .main .DayPicker-WeekdaysRow {
+        display: table-row; }
+      html #root .App .main .DayPicker-Weekday, body #root .App .main .DayPicker-Weekday {
+        display: table-cell;
+        padding: 0.5em;
+        color: #8B9898;
+        text-align: center;
+        font-size: 0.875em; }
+      html #root .App .main .DayPicker-Weekday abbr[title], body #root .App .main .DayPicker-Weekday abbr[title] {
+        border-bottom: none;
+        text-decoration: none; }
+      html #root .App .main .DayPicker-Body, body #root .App .main .DayPicker-Body {
+        display: table-row-group; }
+      html #root .App .main .DayPicker-Week, body #root .App .main .DayPicker-Week {
+        display: table-row; }
+      html #root .App .main .DayPicker-Day, body #root .App .main .DayPicker-Day {
+        display: table-cell;
+        padding: 0.5em;
+        border-radius: 50%;
+        vertical-align: middle;
+        text-align: center;
+        cursor: pointer; }
+      html #root .App .main .DayPicker-WeekNumber, body #root .App .main .DayPicker-WeekNumber {
+        display: table-cell;
+        padding: 0.5em;
+        min-width: 1em;
+        border-right: 1px solid #EAECEC;
+        color: #8B9898;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 0.75em;
+        cursor: pointer; }
+      html #root .App .main .DayPicker--interactionDisabled .DayPicker-Day, body #root .App .main .DayPicker--interactionDisabled .DayPicker-Day {
+        cursor: default; }
+      html #root .App .main .DayPicker-Footer, body #root .App .main .DayPicker-Footer {
+        padding-top: 0.5em; }
+      html #root .App .main .DayPicker-TodayButton, body #root .App .main .DayPicker-TodayButton {
+        border: none;
+        background-color: transparent;
+        background-image: none;
+        box-shadow: none;
+        color: #4A90E2;
+        font-size: 0.875em;
+        cursor: pointer; }
+      html #root .App .main .DayPicker-Day--today, body #root .App .main .DayPicker-Day--today {
+        color: #D0021B;
+        font-weight: 700; }
+      html #root .App .main .DayPicker-Day--outside, body #root .App .main .DayPicker-Day--outside {
+        color: #8B9898;
+        cursor: default; }
+      html #root .App .main .DayPicker-Day--disabled, body #root .App .main .DayPicker-Day--disabled {
+        color: #DCE0E0;
+        cursor: default;
+        /* background-color: #eff1f1; */ }
+      html #root .App .main .DayPicker-Day--sunday, body #root .App .main .DayPicker-Day--sunday {
+        background-color: #F7F8F8; }
+      html #root .App .main .DayPicker-Day--sunday:not(.DayPicker-Day--today), body #root .App .main .DayPicker-Day--sunday:not(.DayPicker-Day--today) {
+        color: #DCE0E0; }
+      html #root .App .main .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside), body #root .App .main .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+        position: relative;
+        background-color: #4A90E2;
+        color: #F0F8FF; }
+      html #root .App .main .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):hover, body #root .App .main .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):hover {
+        background-color: #51A0FA; }
+      html #root .App .main .DayPicker:not(.DayPicker--interactionDisabled)
+.DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover, body #root .App .main .DayPicker:not(.DayPicker--interactionDisabled)
+.DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+        background-color: #F0F8FF; }
+      html #root .App .main .DayPickerInput, body #root .App .main .DayPickerInput {
+        display: inline-block; }
+      html #root .App .main .DayPickerInput-OverlayWrapper, body #root .App .main .DayPickerInput-OverlayWrapper {
+        position: relative; }
+      html #root .App .main .DayPickerInput-Overlay, body #root .App .main .DayPickerInput-Overlay {
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        background: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); }
+      html #root .App .main .events, body #root .App .main .events {
+        width: 100%;
+        padding: 30px 50px;
+        box-sizing: border-box; }
+        html #root .App .main .events .events-container, body #root .App .main .events .events-container {
+          box-sizing: border-box;
+          width: 100%; }
+          html #root .App .main .events .events-container h2, body #root .App .main .events .events-container h2 {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            box-sizing: border-box;
+            width: 100%;
+            position: relative; }
+            html #root .App .main .events .events-container h2 .underline, body #root .App .main .events .events-container h2 .underline {
+              padding-bottom: 15px;
+              padding-left: 5px;
+              padding-right: 5px;
+              color: #5326d3;
+              border-bottom: 3px solid #341690; }
+            html #root .App .main .events .events-container h2 .little-head, body #root .App .main .events .events-container h2 .little-head {
+              color: #7f7e81;
+              font-size: .7em;
+              font-family: "Roboto-Light";
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+              transition: .2s; }
+              html #root .App .main .events .events-container h2 .little-head i, body #root .App .main .events .events-container h2 .little-head i {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: -3px;
+                margin-left: 15px;
+                transition: .2s;
+                color: inherit; }
+              html #root .App .main .events .events-container h2 .little-head:hover, body #root .App .main .events .events-container h2 .little-head:hover {
+                color: #5326d3; }
+                html #root .App .main .events .events-container h2 .little-head:hover i, body #root .App .main .events .events-container h2 .little-head:hover i {
+                  color: #5326d3; }
+            html #root .App .main .events .events-container h2:after, body #root .App .main .events .events-container h2:after {
+              content: '';
+              position: absolute;
+              width: 100%;
+              height: 1px;
+              background: #cecdd0;
+              bottom: 0;
+              left: 0; }
+          html #root .App .main .events .events-container .article-container, body #root .App .main .events .events-container .article-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between; }
+            html #root .App .main .events .events-container .article-container .own-calendar, body #root .App .main .events .events-container .article-container .own-calendar {
+              max-width: 25%; }
+              html #root .App .main .events .events-container .article-container .own-calendar .DayPicker-NavBar .DayPicker-NavButton--prev, body #root .App .main .events .events-container .article-container .own-calendar .DayPicker-NavBar .DayPicker-NavButton--prev {
+                right: auto;
+                left: 1.3em;
+                margin-right: 0; }
+              html #root .App .main .events .events-container .article-container .own-calendar .DayPicker-Month .DayPicker-Caption div, body #root .App .main .events .events-container .article-container .own-calendar .DayPicker-Month .DayPicker-Caption div {
+                text-align: center; }
+              html #root .App .main .events .events-container .article-container .own-calendar .DayPicker-wrapper, body #root .App .main .events .events-container .article-container .own-calendar .DayPicker-wrapper {
+                outline: none; }
+              html #root .App .main .events .events-container .article-container .own-calendar .DayPicker-Day, body #root .App .main .events .events-container .article-container .own-calendar .DayPicker-Day {
+                outline: none; }
+                html #root .App .main .events .events-container .article-container .own-calendar .DayPicker-Day:hover, body #root .App .main .events .events-container .article-container .own-calendar .DayPicker-Day:hover {
+                  background: rgba(247, 61, 83, 0.4) !important; }
+              html #root .App .main .events .events-container .article-container .own-calendar .DayPicker-Day--highlighted, body #root .App .main .events .events-container .article-container .own-calendar .DayPicker-Day--highlighted {
+                background-color: #f73d53;
+                color: white; }
+              html #root .App .main .events .events-container .article-container .own-calendar .DayPicker-Day--selected, body #root .App .main .events .events-container .article-container .own-calendar .DayPicker-Day--selected {
+                background: #5326d3; }
+            html #root .App .main .events .events-container .article-container .articles, body #root .App .main .events .events-container .article-container .articles {
+              width: 70%;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              align-items: flex-start;
+              box-sizing: border-box;
+              justify-content: space-between; }
+              html #root .App .main .events .events-container .article-container .articles h3, body #root .App .main .events .events-container .article-container .articles h3 {
+                text-align: center;
+                width: 100%; }
+              html #root .App .main .events .events-container .article-container .articles .article, body #root .App .main .events .events-container .article-container .articles .article {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 45%;
+                max-width: 45%;
+                box-sizing: border-box;
+                flex: 45%;
+                margin: 20px 0;
+                cursor: pointer;
+                transition: .25s; }
+                html #root .App .main .events .events-container .article-container .articles .article .date-logo, body #root .App .main .events .events-container .article-container .articles .article .date-logo {
+                  color: white;
+                  margin-right: 20px;
+                  width: 75px;
+                  height: 75px;
+                  border-radius: 50%;
+                  background: #f73d53;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  transition: .25s; }
+                  html #root .App .main .events .events-container .article-container .articles .article .date-logo .number, body #root .App .main .events .events-container .article-container .articles .article .date-logo .number {
+                    font-family: "ProximaNova-Bold";
+                    font-size: 1.4em; }
+                  html #root .App .main .events .events-container .article-container .articles .article .date-logo .month, body #root .App .main .events .events-container .article-container .articles .article .date-logo .month {
+                    font-family: "Roboto-Light";
+                    font-size: .8em; }
+                html #root .App .main .events .events-container .article-container .articles .article .title, body #root .App .main .events .events-container .article-container .articles .article .title {
+                  max-width: 70%;
+                  font-family: "Roboto-Light";
+                  line-height: 20px;
+                  letter-spacing: -0.5px; }
+                html #root .App .main .events .events-container .article-container .articles .article:hover, body #root .App .main .events .events-container .article-container .articles .article:hover {
+                  transform: scale(1.02);
+                  filter: drop-shadow(0px 0px 10px rgba(127, 126, 129, 0.3)); }
+                  html #root .App .main .events .events-container .article-container .articles .article:hover .date-logo, body #root .App .main .events .events-container .article-container .articles .article:hover .date-logo {
+                    background: #5326d3; }
+        @media only screen and (max-width: 376px) {
+          html #root .App .main .events, body #root .App .main .events {
+            padding: 30px 25px; }
+            html #root .App .main .events .events-container .article-container, body #root .App .main .events .events-container .article-container {
+              flex-wrap: wrap; }
+              html #root .App .main .events .events-container .article-container .own-calendar, body #root .App .main .events .events-container .article-container .own-calendar {
+                width: 100%;
+                flex: 100%;
+                min-width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center; }
+              html #root .App .main .events .events-container .article-container .articles, body #root .App .main .events .events-container .article-container .articles {
+                width: 100%;
+                flex: 100%;
+                min-width: 100%;
+                justify-content: center;
+                align-items: center; }
+                html #root .App .main .events .events-container .article-container .articles .article, body #root .App .main .events .events-container .article-container .articles .article {
+                  flex: 100%;
+                  width: auto;
+                  max-width: 100%; } }
+    html #root .App .about, body #root .App .about {
+      box-sizing: border-box;
+      padding: 0 50px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: stretch;
+      width: 100%; }
+      html #root .App .about .content, body #root .App .about .content {
+        width: 100%;
+        box-sizing: border-box;
+        background: white;
+        padding: 15px 20px;
+        box-shadow: 0 5px 10px 1px rgba(57, 63, 72, 0.3); }
+        html #root .App .about .content h2, body #root .App .about .content h2 {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          box-sizing: border-box;
+          width: 100%;
+          position: relative; }
+          html #root .App .about .content h2 .underline, body #root .App .about .content h2 .underline {
+            padding-bottom: 15px;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: #5326d3;
+            border-bottom: 3px solid #341690; }
+          html #root .App .about .content h2:after, body #root .App .about .content h2:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: #cecdd0;
+            bottom: 0;
+            left: 0; }
+        html #root .App .about .content .content-box h3, body #root .App .about .content .content-box h3 {
+          padding-left: 10px;
+          box-sizing: border-box; }
+        html #root .App .about .content .content-box p, body #root .App .about .content .content-box p {
+          padding-left: 10px;
+          box-sizing: border-box;
+          font-family: "ProximaNova-Regular";
+          letter-spacing: -0.5px;
+          line-height: 26px; }
+        html #root .App .about .content .content-box .load, body #root .App .about .content .content-box .load {
+          font-family: "ProximaNova-Black";
+          letter-spacing: 2px;
+          color: #f73d53;
+          text-decoration: underline; }
+        html #root .App .about .content .content-box ul, body #root .App .about .content .content-box ul {
+          border-radius: 4px;
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+          padding-left: 0;
+          margin-bottom: 20px;
+          box-sizing: border-box;
+          list-style: none; }
+          html #root .App .about .content .content-box ul li, body #root .App .about .content .content-box ul li {
+            position: relative;
+            display: block;
+            padding: 10px 15px;
+            line-height: 24px;
+            margin-bottom: -1px;
+            box-sizing: border-box;
+            font-family: "ProximaNova-Regular";
+            letter-spacing: -0.5px;
+            background-color: #fff;
+            border: 1px solid #ddd; }
+            html #root .App .about .content .content-box ul li:first-letter, body #root .App .about .content .content-box ul li:first-letter {
+              text-transform: capitalize; }
+            html #root .App .about .content .content-box ul li .mini-logo, body #root .App .about .content .content-box ul li .mini-logo {
+              display: block;
+              font-family: "ProximaNova-Black";
+              letter-spacing: 2px;
+              margin-bottom: 5px; }
+            html #root .App .about .content .content-box ul li:first-child, body #root .App .about .content .content-box ul li:first-child {
+              border-top-right-radius: 4px; }
+            html #root .App .about .content .content-box ul li:last-child, body #root .App .about .content .content-box ul li:last-child {
+              border-bottom-left-radius: 4px; }
+          html #root .App .about .content .content-box ul .list-title, body #root .App .about .content .content-box ul .list-title {
+            background: rgba(83, 54, 211, 0.5);
+            color: #341690;
+            font-family: "ProximaNova-Bold"; }
+        html #root .App .about .content #file_frame, body #root .App .about .content #file_frame {
+          width: 100%;
+          min-height: 550px; }
+      @media only screen and (max-width: 376px) {
+        html #root .App .about, body #root .App .about {
+          padding: 0 25px; }
+          html #root .App .about .content, body #root .App .about .content {
+            padding: 25px 15px; } }
+    html #root .App .lecturers, body #root .App .lecturers {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 0px 25px;
+      box-sizing: border-box; }
+      html #root .App .lecturers .content, body #root .App .lecturers .content {
+        background: white;
+        box-sizing: border-box;
+        padding: 25px;
+        width: 100%; }
+        html #root .App .lecturers .content .lecturers-container, body #root .App .lecturers .content .lecturers-container {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-wrap: wrap; }
+          html #root .App .lecturers .content .lecturers-container .article, body #root .App .lecturers .content .lecturers-container .article {
+            margin-bottom: 15px;
+            flex: 45%;
+            width: 45%;
+            min-width: 45%;
+            max-width: 45%;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            justify-content: flex-start;
+            position: relative; }
+            html #root .App .lecturers .content .lecturers-container .article .img, body #root .App .lecturers .content .lecturers-container .article .img {
+              background: no-repeat center 0px;
+              background-size: cover;
+              margin-right: 50px;
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              box-shadow: 0 0 10px 1px rgba(37, 43, 51, 0.6); }
+              html #root .App .lecturers .content .lecturers-container .article .img img, body #root .App .lecturers .content .lecturers-container .article .img img {
+                width: 50px; }
+            html #root .App .lecturers .content .lecturers-container .article .text, body #root .App .lecturers .content .lecturers-container .article .text {
+              position: absolute;
+              left: 120px;
+              width: calc(100% - 120px); }
+              html #root .App .lecturers .content .lecturers-container .article .text .name, body #root .App .lecturers .content .lecturers-container .article .text .name {
+                font-family: "ProximaNova-Bold";
+                margin-bottom: 5px;
+                line-height: 24px;
+                font-size: 1.4em;
+                letter-spacing: -0.5px;
+                text-shadow: 0 0 10px rgba(37, 43, 51, 0.2); }
+              html #root .App .lecturers .content .lecturers-container .article .text .desc, body #root .App .lecturers .content .lecturers-container .article .text .desc {
+                font-family: "ProximaNova-Light"; }
+                html #root .App .lecturers .content .lecturers-container .article .text .desc p, body #root .App .lecturers .content .lecturers-container .article .text .desc p {
+                  line-height: 20px;
+                  letter-spacing: -0.5px;
+                  margin: 0;
+                  padding: 0; }
+          html #root .App .lecturers .content .lecturers-container .article-push, body #root .App .lecturers .content .lecturers-container .article-push {
+            cursor: pointer;
+            transition: .25s; }
+            html #root .App .lecturers .content .lecturers-container .article-push:hover, body #root .App .lecturers .content .lecturers-container .article-push:hover {
+              transform: scale(1.05); }
+      @media only screen and (max-width: 376px) {
+        html #root .App .lecturers .content .lecturers-container .article, body #root .App .lecturers .content .lecturers-container .article {
+          flex: 100%;
+          width: 100%;
+          max-width: 100%;
+          margin-bottom: 15px; }
+          html #root .App .lecturers .content .lecturers-container .article .img, body #root .App .lecturers .content .lecturers-container .article .img {
+            width: 70px;
+            height: 70px;
+            margin-right: 10px; }
+          html #root .App .lecturers .content .lecturers-container .article .text, body #root .App .lecturers .content .lecturers-container .article .text {
+            width: calc(100% - 85px);
+            left: 85px; }
+            html #root .App .lecturers .content .lecturers-container .article .text .name, body #root .App .lecturers .content .lecturers-container .article .text .name {
+              font-size: 1em; }
+            html #root .App .lecturers .content .lecturers-container .article .text .desc, body #root .App .lecturers .content .lecturers-container .article .text .desc {
+              font-size: .8em; } }
+    html #root .App .graph-article, body #root .App .graph-article {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 0px 25px;
+      box-sizing: border-box; }
+      html #root .App .graph-article .content, body #root .App .graph-article .content {
+        background: white;
+        box-sizing: border-box;
+        padding: 25px;
+        width: 100%; }
+        html #root .App .graph-article .content .hello, body #root .App .graph-article .content .hello {
+          cursor: pointer;
+          margin-bottom: 15px;
+          display: flex;
+          align-items: center;
+          box-sizing: border-box;
+          justify-content: flex-start;
+          position: relative; }
+          html #root .App .graph-article .content .hello i, body #root .App .graph-article .content .hello i {
+            font-size: 1.5em;
+            color: #5326d3;
+            margin-bottom: -5px;
+            transition: .25s; }
+          html #root .App .graph-article .content .hello .img, body #root .App .graph-article .content .hello .img {
+            background: no-repeat center 0px;
+            background-size: cover;
+            margin-right: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            box-shadow: 0 0 7px 1px rgba(37, 43, 51, 0.4);
+            transition: .25s; }
+          html #root .App .graph-article .content .hello .name, body #root .App .graph-article .content .hello .name {
+            font-size: 1.1em;
+            transition: .25s; }
+          html #root .App .graph-article .content .hello:hover i, body #root .App .graph-article .content .hello:hover i {
+            transform: scale(1.4); }
+          html #root .App .graph-article .content .hello:hover .img, body #root .App .graph-article .content .hello:hover .img {
+            transform: scale(0.8); }
+        html #root .App .graph-article .content .consult h2, body #root .App .graph-article .content .consult h2 {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          box-sizing: border-box;
+          width: 100%;
+          position: relative; }
+          html #root .App .graph-article .content .consult h2 .underline, body #root .App .graph-article .content .consult h2 .underline {
+            padding-bottom: 15px;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: #5326d3;
+            border-bottom: 3px solid #341690; }
+          html #root .App .graph-article .content .consult h2:after, body #root .App .graph-article .content .consult h2:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: #cecdd0;
+            bottom: 0;
+            left: 0; }
+        html #root .App .graph-article .content .publ-lessons h2, body #root .App .graph-article .content .publ-lessons h2 {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          box-sizing: border-box;
+          width: 100%;
+          position: relative; }
+          html #root .App .graph-article .content .publ-lessons h2 .underline, body #root .App .graph-article .content .publ-lessons h2 .underline {
+            padding-bottom: 15px;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: #5326d3;
+            border-bottom: 3px solid #341690; }
+          html #root .App .graph-article .content .publ-lessons h2:after, body #root .App .graph-article .content .publ-lessons h2:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: #cecdd0;
+            bottom: 0;
+            left: 0; }
+        html #root .App .graph-article .content .publ-lessons .pub-container, body #root .App .graph-article .content .publ-lessons .pub-container {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          justify-content: space-between; }
+          html #root .App .graph-article .content .publ-lessons .pub-container .open-lessons, body #root .App .graph-article .content .publ-lessons .pub-container .open-lessons {
+            flex: 30%;
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 30%;
+            min-height: 150px;
+            padding: 15px 25px;
+            border: 1px solid;
+            border-radius: 16px;
+            box-shadow: 0 0 10px 1px rgba(37, 43, 51, 0.2); }
+            html #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .photo, body #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .photo {
+              margin-right: 15px; }
+              html #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .photo img, body #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .photo img {
+                width: 75px; }
+            html #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .descr h3, body #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .descr h3 {
+              margin: 0; }
+            html #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .descr h4, body #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .descr h4 {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              margin: 0; }
+              html #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .descr h4 i, body #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .descr h4 i {
+                margin-right: 5px;
+                margin-bottom: -5px;
+                font-size: 1.2em;
+                color: #5326d3; }
+                html #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .descr h4 i:last-child, body #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .descr h4 i:last-child {
+                  margin-left: 10px;
+                  color: #f73d53; }
+            html #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .descr p, body #root .App .graph-article .content .publ-lessons .pub-container .open-lessons .descr p {
+              margin: 7px 0; }
+      @media only screen and (max-width: 376px) {
+        html #root .App .graph-article, body #root .App .graph-article {
+          padding: 0px 20px; }
+          html #root .App .graph-article .content, body #root .App .graph-article .content {
+            padding: 40px 20px; } }
+    html #root .App .news, body #root .App .news {
+      width: 100%;
+      min-height: 150px;
+      padding: 30px 50px;
+      box-sizing: border-box; }
+      html #root .App .news .news-container, body #root .App .news .news-container {
+        box-sizing: border-box;
+        width: 100%; }
+        html #root .App .news .news-container h2, body #root .App .news .news-container h2 {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          box-sizing: border-box;
+          width: 100%;
+          position: relative; }
+          html #root .App .news .news-container h2 .underline, body #root .App .news .news-container h2 .underline {
+            padding-bottom: 15px;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: #5326d3;
+            border-bottom: 3px solid #341690; }
+          html #root .App .news .news-container h2 .little-head, body #root .App .news .news-container h2 .little-head {
+            color: #7f7e81;
+            font-size: .7em;
+            font-family: "Roboto-Light";
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: .25s; }
+            html #root .App .news .news-container h2 .little-head i, body #root .App .news .news-container h2 .little-head i {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: -3px;
+              margin-left: 15px;
+              transition: .25s; }
+            html #root .App .news .news-container h2 .little-head:hover, body #root .App .news .news-container h2 .little-head:hover {
+              color: #5326d3; }
+              html #root .App .news .news-container h2 .little-head:hover i, body #root .App .news .news-container h2 .little-head:hover i {
+                color: #5326d3; }
+          html #root .App .news .news-container h2:after, body #root .App .news .news-container h2:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: #cecdd0;
+            bottom: 0;
+            left: 0; }
+        html #root .App .news .news-container .article-container, body #root .App .news .news-container .article-container {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-top: 35px; }
+          html #root .App .news .news-container .article-container .article, body #root .App .news .news-container .article-container .article {
+            flex: 24%;
+            max-width: 23%;
+            cursor: pointer;
+            transition: .25s;
+            filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0)); }
+            html #root .App .news .news-container .article-container .article .img, body #root .App .news .news-container .article-container .article .img {
+              width: 100%;
+              height: 150px;
+              border-radius: 7px;
+              position: relative;
+              background: no-repeat center top;
+              background-size: cover; }
+              html #root .App .news .news-container .article-container .article .img .tag, body #root .App .news .news-container .article-container .article .img .tag {
+                position: absolute;
+                padding: 5px 20px;
+                bottom: 10px;
+                font-size: .9em;
+                font-family: "Roboto-Light";
+                right: 10px;
+                border-radius: 10px;
+                color: white;
+                background: #00d78c; }
+              html #root .App .news .news-container .article-container .article .img .green-tag, body #root .App .news .news-container .article-container .article .img .green-tag {
+                background: #46d700; }
+              html #root .App .news .news-container .article-container .article .img .pink-tag, body #root .App .news .news-container .article-container .article .img .pink-tag {
+                background: #ff0081; }
+            html #root .App .news .news-container .article-container .article .date, body #root .App .news .news-container .article-container .article .date {
+              margin: 10px 0;
+              color: #7f7e81;
+              padding-left: 5px; }
+              html #root .App .news .news-container .article-container .article .date i, body #root .App .news .news-container .article-container .article .date i {
+                margin-right: 3px;
+                transition: .25s; }
+                html #root .App .news .news-container .article-container .article .date i:last-child, body #root .App .news .news-container .article-container .article .date i:last-child {
+                  margin-left: 10px; }
+            html #root .App .news .news-container .article-container .article .short-desc, body #root .App .news .news-container .article-container .article .short-desc {
+              padding-left: 5px; }
+            html #root .App .news .news-container .article-container .article:hover, body #root .App .news .news-container .article-container .article:hover {
+              filter: drop-shadow(0px 0px 10px rgba(127, 126, 129, 0.5)); }
+              html #root .App .news .news-container .article-container .article:hover .date i, body #root .App .news .news-container .article-container .article:hover .date i {
+                color: #5326d3; }
+                html #root .App .news .news-container .article-container .article:hover .date i:last-child, body #root .App .news .news-container .article-container .article:hover .date i:last-child {
+                  color: #f73d53; }
+      @media only screen and (max-width: 376px) {
+        html #root .App .news, body #root .App .news {
+          padding: 30px 25px; }
+          html #root .App .news .news-container .article-container, body #root .App .news .news-container .article-container {
+            flex-wrap: wrap; }
+            html #root .App .news .news-container .article-container .article, body #root .App .news .news-container .article-container .article {
+              flex: 100%;
+              width: 100%;
+              max-width: 100%;
+              margin-bottom: 25px; } }
+    html #root .App .article-news, body #root .App .article-news {
+      box-sizing: border-box;
+      padding: 0px 25px;
+      min-width: 100%; }
+      html #root .App .article-news .news-is, body #root .App .article-news .news-is {
+        box-sizing: border-box;
+        padding: 25px 25px;
+        background: white;
+        min-width: 100%; }
+        html #root .App .article-news .news-is .main-h2, body #root .App .article-news .news-is .main-h2 {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          box-sizing: border-box;
+          width: 100%;
+          position: relative;
+          margin-bottom: 50px; }
+          html #root .App .article-news .news-is .main-h2 .underline, body #root .App .article-news .news-is .main-h2 .underline {
+            padding-bottom: 15px;
+            padding-left: 5px;
+            padding-right: 25px;
+            color: #5326d3;
+            border-bottom: 3px solid #341690;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            justify-content: center;
+            transition: .25s; }
+            html #root .App .article-news .news-is .main-h2 .underline i, body #root .App .article-news .news-is .main-h2 .underline i {
+              margin-right: 5px;
+              margin-bottom: -5px;
+              transition: .25s;
+              color: #f73d53; }
+            html #root .App .article-news .news-is .main-h2 .underline:hover i, body #root .App .article-news .news-is .main-h2 .underline:hover i {
+              transform: scale(1.5); }
+          html #root .App .article-news .news-is .main-h2 .little-head, body #root .App .article-news .news-is .main-h2 .little-head {
+            color: #7f7e81;
+            font-size: .7em;
+            font-family: "Roboto-Light";
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: .25s; }
+            html #root .App .article-news .news-is .main-h2 .little-head i, body #root .App .article-news .news-is .main-h2 .little-head i {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: -3px;
+              margin-left: 15px;
+              transition: .25s;
+              margin-right: 5px;
+              color: #5326d3; }
+              html #root .App .article-news .news-is .main-h2 .little-head i:last-child, body #root .App .article-news .news-is .main-h2 .little-head i:last-child {
+                color: #f73d53; }
+          html #root .App .article-news .news-is .main-h2:after, body #root .App .article-news .news-is .main-h2:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: #cecdd0;
+            bottom: 0;
+            left: 0; }
+      @media only screen and (max-width: 376px) {
+        html #root .App .article-news .news-is .main-h2, body #root .App .article-news .news-is .main-h2 {
+          position: relative; }
+          html #root .App .article-news .news-is .main-h2 .underline, body #root .App .article-news .news-is .main-h2 .underline {
+            font-size: 1em; }
+          html #root .App .article-news .news-is .main-h2 .little-head, body #root .App .article-news .news-is .main-h2 .little-head {
+            position: absolute;
+            font-size: .6em;
+            bottom: 5px;
+            right: 0;
+            align-self: flex-end; } }
+    html #root .App .events-big, body #root .App .events-big {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0 25px; }
+      html #root .App .events-big .events-container, body #root .App .events-big .events-container {
+        box-sizing: border-box;
+        background: white;
+        width: 100%;
+        padding: 25px 25px; }
+        html #root .App .events-big .events-container h2, body #root .App .events-big .events-container h2 {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          box-sizing: border-box;
+          width: 100%;
+          position: relative; }
+          html #root .App .events-big .events-container h2 .underline, body #root .App .events-big .events-container h2 .underline {
+            padding-bottom: 15px;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: #5326d3;
+            border-bottom: 3px solid #341690; }
+          html #root .App .events-big .events-container h2 .little-head, body #root .App .events-big .events-container h2 .little-head {
+            color: #7f7e81;
+            font-size: .7em;
+            font-family: "Roboto-Light";
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: .25s; }
+            html #root .App .events-big .events-container h2 .little-head i, body #root .App .events-big .events-container h2 .little-head i {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: -3px;
+              margin-left: 15px;
+              transition: .25s; }
+            html #root .App .events-big .events-container h2 .little-head:hover, body #root .App .events-big .events-container h2 .little-head:hover {
+              color: #5326d3; }
+              html #root .App .events-big .events-container h2 .little-head:hover i, body #root .App .events-big .events-container h2 .little-head:hover i {
+                color: #5326d3; }
+          html #root .App .events-big .events-container h2:after, body #root .App .events-big .events-container h2:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: #cecdd0;
+            bottom: 0;
+            left: 0; }
+        html #root .App .events-big .events-container .article-event, body #root .App .events-big .events-container .article-event {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          box-sizing: border-box;
+          justify-content: space-between; }
+          html #root .App .events-big .events-container .article-event .article, body #root .App .events-big .events-container .article-event .article {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 30%;
+            max-width: 30%;
+            box-sizing: border-box;
+            flex: 30%;
+            margin: 20px 0;
+            cursor: pointer;
+            transition: .25s; }
+            html #root .App .events-big .events-container .article-event .article .date-logo, body #root .App .events-big .events-container .article-event .article .date-logo {
+              color: white;
+              margin-right: 20px;
+              width: 75px;
+              height: 75px;
+              border-radius: 50%;
+              background: #f73d53;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              transition: .25s; }
+              html #root .App .events-big .events-container .article-event .article .date-logo .number, body #root .App .events-big .events-container .article-event .article .date-logo .number {
+                font-family: "ProximaNova-Bold";
+                font-size: 1.4em; }
+              html #root .App .events-big .events-container .article-event .article .date-logo .month, body #root .App .events-big .events-container .article-event .article .date-logo .month {
+                font-family: "Roboto-Light";
+                font-size: .8em; }
+            html #root .App .events-big .events-container .article-event .article .title, body #root .App .events-big .events-container .article-event .article .title {
+              max-width: 70%;
+              font-family: "Roboto-Light";
+              line-height: 20px;
+              letter-spacing: -0.5px; }
+            html #root .App .events-big .events-container .article-event .article:hover, body #root .App .events-big .events-container .article-event .article:hover {
+              transform: scale(1.02);
+              filter: drop-shadow(0px 0px 10px rgba(127, 126, 129, 0.3)); }
+              html #root .App .events-big .events-container .article-event .article:hover .date-logo, body #root .App .events-big .events-container .article-event .article:hover .date-logo {
+                background: #5326d3; }
+      @media only screen and (max-width: 376px) {
+        html #root .App .events-big .events-container .article-event, body #root .App .events-big .events-container .article-event {
+          flex-wrap: wrap; }
+          html #root .App .events-big .events-container .article-event .article, body #root .App .events-big .events-container .article-event .article {
+            flex: 100%;
+            width: 100%;
+            max-width: 100%; } }
+    html #root .App .DraftJsTextEditor, body #root .App .DraftJsTextEditor {
+      width: 100%;
+      min-height: 150px; }
+      html #root .App .DraftJsTextEditor .DraftEditor-root, body #root .App .DraftJsTextEditor .DraftEditor-root {
+        width: 100%;
+        min-height: 150px; }
+        html #root .App .DraftJsTextEditor .DraftEditor-root .DraftEditor-editorContainer, body #root .App .DraftJsTextEditor .DraftEditor-root .DraftEditor-editorContainer {
+          width: 100%;
+          min-height: 150px; }
+          html #root .App .DraftJsTextEditor .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content, body #root .App .DraftJsTextEditor .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content {
+            width: 100%;
+            min-height: 150px; }
+    html #root .App .contacts, body #root .App .contacts {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 20px 50px; }
+      html #root .App .contacts .contacts-container, body #root .App .contacts .contacts-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between; }
+        html #root .App .contacts .contacts-container .msg-form, body #root .App .contacts .contacts-container .msg-form {
+          flex: 45%;
+          width: 45%;
+          max-width: 45%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          html #root .App .contacts .contacts-container .msg-form textarea, html #root .App .contacts .contacts-container .msg-form input, body #root .App .contacts .contacts-container .msg-form textarea, body #root .App .contacts .contacts-container .msg-form input {
+            margin-bottom: 10px;
+            border: 1px solid transparent;
+            box-shadow: 0 0 5px 0px rgba(11, 13, 15, 0.2);
+            padding: 10px 25px;
+            min-width: 250px;
+            outline: 0;
+            border-radius: 16px;
+            background: #eaeef1;
+            color: black;
+            transition: .25s; }
+            html #root .App .contacts .contacts-container .msg-form textarea:focus, html #root .App .contacts .contacts-container .msg-form textarea:active, html #root .App .contacts .contacts-container .msg-form input:focus, html #root .App .contacts .contacts-container .msg-form input:active, body #root .App .contacts .contacts-container .msg-form textarea:focus, body #root .App .contacts .contacts-container .msg-form textarea:active, body #root .App .contacts .contacts-container .msg-form input:focus, body #root .App .contacts .contacts-container .msg-form input:active {
+              background: rgba(0, 0, 0, 0.7);
+              color: white;
+              border-color: #f73d53; }
+            html #root .App .contacts .contacts-container .msg-form textarea::placeholder, html #root .App .contacts .contacts-container .msg-form input::placeholder, body #root .App .contacts .contacts-container .msg-form textarea::placeholder, body #root .App .contacts .contacts-container .msg-form input::placeholder {
+              color: #9998a7; }
+          html #root .App .contacts .contacts-container .msg-form textarea, body #root .App .contacts .contacts-container .msg-form textarea {
+            resize: none;
+            height: 175px; }
+          html #root .App .contacts .contacts-container .msg-form .btn-send, body #root .App .contacts .contacts-container .msg-form .btn-send {
+            padding: 7px 25px;
+            background: #5326d3;
+            color: white;
+            border-radius: 16px;
+            box-shadow: 0 0 5px 0px rgba(11, 13, 15, 0.2);
+            cursor: pointer;
+            transition: .25s; }
+            html #root .App .contacts .contacts-container .msg-form .btn-send:hover, body #root .App .contacts .contacts-container .msg-form .btn-send:hover {
+              background: #f73d53; }
+        html #root .App .contacts .contacts-container .contact, body #root .App .contacts .contacts-container .contact {
+          flex: 45%;
+          width: 45%;
+          max-width: 45%; }
+          html #root .App .contacts .contacts-container .contact .top .mini-socials, body #root .App .contacts .contacts-container .contact .top .mini-socials {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; }
+            html #root .App .contacts .contacts-container .contact .top .mini-socials a, body #root .App .contacts .contacts-container .contact .top .mini-socials a {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none; }
+              html #root .App .contacts .contacts-container .contact .top .mini-socials a li, body #root .App .contacts .contacts-container .contact .top .mini-socials a li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                font-size: 1.3em;
+                transition: .25s;
+                border-radius: 50%;
+                background: #5326d3;
+                box-shadow: 0 0 5px 0px rgba(11, 13, 15, 0.2); }
+                html #root .App .contacts .contacts-container .contact .top .mini-socials a li i, body #root .App .contacts .contacts-container .contact .top .mini-socials a li i {
+                  color: white;
+                  margin-bottom: -7px;
+                  transition: .25s; }
+              html #root .App .contacts .contacts-container .contact .top .mini-socials a:hover li, body #root .App .contacts .contacts-container .contact .top .mini-socials a:hover li {
+                background: #f73d53; }
+          html #root .App .contacts .contacts-container .contact .top .more, body #root .App .contacts .contacts-container .contact .top .more {
+            margin-top: 20px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column; }
+            html #root .App .contacts .contacts-container .contact .top .more a, body #root .App .contacts .contacts-container .contact .top .more a {
+              text-decoration: none;
+              color: #7f7e81;
+              display: flex;
+              margin-bottom: 10px;
+              transition: .25s;
+              align-items: flex-start;
+              font-family: "Roboto-Light";
+              font-size: .9em;
+              letter-spacing: -0.5px;
+              justify-content: flex-start; }
+              html #root .App .contacts .contacts-container .contact .top .more a i, body #root .App .contacts .contacts-container .contact .top .more a i {
+                font-size: 1.4em;
+                color: #5326d3;
+                margin-right: 10px;
+                transition: .25s; }
+              html #root .App .contacts .contacts-container .contact .top .more a:hover, body #root .App .contacts .contacts-container .contact .top .more a:hover {
+                color: black; }
+                html #root .App .contacts .contacts-container .contact .top .more a:hover i, body #root .App .contacts .contacts-container .contact .top .more a:hover i {
+                  color: #f73d53; }
+          html #root .App .contacts .contacts-container .contact .bottom iframe, body #root .App .contacts .contacts-container .contact .bottom iframe {
+            width: 100%;
+            height: 350px;
+            box-shadow: 0 0 5px 0px rgba(11, 13, 15, 0.2); }
+      @media only screen and (max-width: 376px) {
+        html #root .App .contacts, body #root .App .contacts {
+          padding: 20px 25px; }
+          html #root .App .contacts .contacts-container, body #root .App .contacts .contacts-container {
+            flex-wrap: wrap; }
+            html #root .App .contacts .contacts-container .msg-form, body #root .App .contacts .contacts-container .msg-form {
+              width: 100%;
+              flex: 100%;
+              max-width: 100%;
+              margin-bottom: 50px; }
+            html #root .App .contacts .contacts-container .contact, body #root .App .contacts .contacts-container .contact {
+              width: 100%;
+              flex: 100%;
+              max-width: 100%; } }
+    html #root .App .admin, body #root .App .admin {
+      background: white;
+      width: 100%; }
+      html #root .App .admin .admin-head, body #root .App .admin .admin-head {
+        z-index: 99;
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 25px 50px;
+        background: #f4f2f2;
+        color: #313131;
+        box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3); }
+        html #root .App .admin .admin-head .logo, body #root .App .admin .admin-head .logo {
+          font-size: 2em;
+          color: #5326d3; }
+        html #root .App .admin .admin-head .menu, body #root .App .admin .admin-head .menu {
+          padding: 0;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          list-style: none; }
+          html #root .App .admin .admin-head .menu li, body #root .App .admin .admin-head .menu li {
+            margin-right: 10px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: .25s; }
+            html #root .App .admin .admin-head .menu li:hover, body #root .App .admin .admin-head .menu li:hover {
+              color: #f73d53; }
+      html #root .App .admin .btn-add, body #root .App .admin .btn-add {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 13px;
+        border: 1px solid #5326d3;
+        cursor: pointer;
+        text-transform: uppercase;
+        background: #f4f2f2;
+        color: #5326d3;
+        transition: .25s; }
+        html #root .App .admin .btn-add:hover, body #root .App .admin .btn-add:hover {
+          color: #f73d53;
+          border-color: #f73d53; }
+      html #root .App .admin .controls, body #root .App .admin .controls {
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden; }
+        html #root .App .admin .controls:before, body #root .App .admin .controls:before {
+          z-index: 0;
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          box-shadow: inset 0 0 50px 100px #f0f2f3;
+          filter: blur(5px); }
+        html #root .App .admin .controls .RichEditor-controls, body #root .App .admin .controls .RichEditor-controls {
+          position: relative;
+          display: flex;
+          align-items: center;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          justify-content: flex-start;
+          padding-left: 15px;
+          border-top-left-radius: 6px;
+          border-top-right-radius: 6px; }
+          html #root .App .admin .controls .RichEditor-controls div, body #root .App .admin .controls .RichEditor-controls div {
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 2px solid #5326d3;
+            border-radius: 6px;
+            color: black;
+            cursor: pointer;
+            transition: .25s;
+            background: white; }
+            html #root .App .admin .controls .RichEditor-controls div:hover, body #root .App .admin .controls .RichEditor-controls div:hover {
+              background: #5326d3;
+              color: white; }
+          html #root .App .admin .controls .RichEditor-controls .RichEditor-activeButton, body #root .App .admin .controls .RichEditor-controls .RichEditor-activeButton {
+            background: #5326d3;
+            color: white; }
+        html #root .App .admin .controls .top, body #root .App .admin .controls .top {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          padding-left: 15px;
+          padding-bottom: 15px;
+          border-bottom: 1px solid #d1dbe3; }
+          html #root .App .admin .controls .top button, body #root .App .admin .controls .top button {
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 2px solid #5326d3;
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: .25s;
+            background: white; }
+            html #root .App .admin .controls .top button:hover, body #root .App .admin .controls .top button:hover {
+              background: #5326d3;
+              color: white; }
+      html #root .App .admin .DraftEditor-root, body #root .App .admin .DraftEditor-root {
+        padding: 15px 25px;
+        width: 100%;
+        max-height: 65vh;
+        overflow: auto;
+        box-sizing: border-box;
+        font-size: 14px;
+        border: 2px solid #f0f2f3;
+        border-top-color: transparent;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2); }
+        html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer {
+          box-sizing: border-box; }
+          html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content {
+            box-sizing: border-box;
+            min-height: 60vh; }
+            html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h1, html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h2, html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h3, html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h4, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h1, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h2, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h3, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h4 {
+              color: #000; }
+            html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content span.padding, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content span.padding {
+              padding-left: 15px; }
+            html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content p, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content p {
+              color: #888888;
+              line-height: 31px;
+              font-size: 18px;
+              letter-spacing: -0.5px;
+              padding: 0 0 0 15px; }
+            html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content ul, html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content ol, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content ul, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content ol {
+              color: #888888;
+              line-height: 31px;
+              font-size: 18px;
+              letter-spacing: -0.5px;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start; }
+            html #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content b, body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content b {
+              color: #000; }
+      html #root .App .admin .enter, body #root .App .admin .enter {
+        min-height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        html #root .App .admin .enter input, body #root .App .admin .enter input {
+          margin-bottom: 25px;
+          width: 250px;
+          border: 1px solid #5326d3;
+          border-radius: 7px;
+          outline: none;
+          padding: 7px 10px;
+          transition: .25s; }
+          html #root .App .admin .enter input:hover, html #root .App .admin .enter input:active, html #root .App .admin .enter input:focus, body #root .App .admin .enter input:hover, body #root .App .admin .enter input:active, body #root .App .admin .enter input:focus {
+            border-color: #f73d53; }
+        html #root .App .admin .enter .btn, body #root .App .admin .enter .btn {
+          padding: 10px 15px;
+          background: #5326d3;
+          text-align: center;
+          color: white;
+          border-radius: 12px;
+          transition: .25s;
+          cursor: pointer; }
+          html #root .App .admin .enter .btn:hover, body #root .App .admin .enter .btn:hover {
+            background: #f73d53; }
+      html #root .App .admin .admin-settings, body #root .App .admin .admin-settings {
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; }
+        html #root .App .admin .admin-settings .add-new-user, body #root .App .admin .admin-settings .add-new-user {
+          padding-top: 15px;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start; }
+          html #root .App .admin .admin-settings .add-new-user input, body #root .App .admin .admin-settings .add-new-user input {
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            border: 1px solid #5326d3;
+            border-radius: 6px;
+            transition: .25s;
+            outline: none; }
+            html #root .App .admin .admin-settings .add-new-user input:focus, html #root .App .admin .admin-settings .add-new-user input:hover, html #root .App .admin .admin-settings .add-new-user input:active, body #root .App .admin .admin-settings .add-new-user input:focus, body #root .App .admin .admin-settings .add-new-user input:hover, body #root .App .admin .admin-settings .add-new-user input:active {
+              border-color: #f73d53; }
+          html #root .App .admin .admin-settings .add-new-user .btn-add-new, body #root .App .admin .admin-settings .add-new-user .btn-add-new {
+            padding: 5px 10px;
+            background: #5326d3;
+            border-radius: 6px;
+            transition: .25s;
+            cursor: pointer;
+            color: white; }
+            html #root .App .admin .admin-settings .add-new-user .btn-add-new:hover, body #root .App .admin .admin-settings .add-new-user .btn-add-new:hover {
+              background: #f73d53; }
+      html #root .App .admin .article-news .news-is, body #root .App .admin .article-news .news-is {
+        position: relative; }
+        html #root .App .admin .article-news .news-is .main-h2 .underline, body #root .App .admin .article-news .news-is .main-h2 .underline {
+          width: 40%; }
+          html #root .App .admin .article-news .news-is .main-h2 .underline input, body #root .App .admin .article-news .news-is .main-h2 .underline input {
+            color: #5326d3;
+            font-size: 1.3em;
+            border: 1px solid transparent;
+            width: 100%;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            outline: none;
+            transition: .25s;
+            border-radius: 9px; }
+            html #root .App .admin .article-news .news-is .main-h2 .underline input:hover, html #root .App .admin .article-news .news-is .main-h2 .underline input:focus, body #root .App .admin .article-news .news-is .main-h2 .underline input:hover, body #root .App .admin .article-news .news-is .main-h2 .underline input:focus {
+              border-color: #5326d3;
+              background: #f4f2f2;
+              color: black; }
+        html #root .App .admin .article-news .news-is .main-h2 .little-head, body #root .App .admin .article-news .news-is .main-h2 .little-head {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end; }
+          html #root .App .admin .article-news .news-is .main-h2 .little-head select, body #root .App .admin .article-news .news-is .main-h2 .little-head select {
+            margin-left: 15px;
+            margin-bottom: -5px; }
+        html #root .App .admin .article-news .news-is .content, body #root .App .admin .article-news .news-is .content {
+          margin-bottom: 25px; }
+          html #root .App .admin .article-news .news-is .content .block-all, body #root .App .admin .article-news .news-is .content .block-all {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap; }
+            html #root .App .admin .article-news .news-is .content .block-all h3, body #root .App .admin .article-news .news-is .content .block-all h3 {
+              flex: 100%; }
+            html #root .App .admin .article-news .news-is .content .block-all #shortDesc, body #root .App .admin .article-news .news-is .content .block-all #shortDesc {
+              width: 60%;
+              height: 200px;
+              border: 2px solid #f0f2f3;
+              resize: none;
+              font-size: 1.2em;
+              box-sizing: border-box;
+              box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+              padding: 5px 10px;
+              outline: none;
+              margin-bottom: 20px;
+              border-radius: 9px;
+              transition: .25s; }
+              html #root .App .admin .article-news .news-is .content .block-all #shortDesc:hover, html #root .App .admin .article-news .news-is .content .block-all #shortDesc:focus, body #root .App .admin .article-news .news-is .content .block-all #shortDesc:hover, body #root .App .admin .article-news .news-is .content .block-all #shortDesc:focus {
+                border-color: #f73d53; }
+          html #root .App .admin .article-news .news-is .content .preview, body #root .App .admin .article-news .news-is .content .preview {
+            margin-bottom: 25px;
+            margin-top: -35px;
+            top: 120px;
+            right: 0;
+            width: 25%;
+            background: white; }
+            html #root .App .admin .article-news .news-is .content .preview .block, body #root .App .admin .article-news .news-is .content .preview .block {
+              width: 100%; }
+              html #root .App .admin .article-news .news-is .content .preview .block .article, body #root .App .admin .article-news .news-is .content .preview .block .article {
+                width: 100%;
+                transition: .25s;
+                overflow: hidden;
+                filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0)); }
+                html #root .App .admin .article-news .news-is .content .preview .block .article .img, body #root .App .admin .article-news .news-is .content .preview .block .article .img {
+                  width: 100%;
+                  height: 150px;
+                  border-radius: 7px;
+                  position: relative;
+                  background: no-repeat center top;
+                  background-size: cover; }
+                  html #root .App .admin .article-news .news-is .content .preview .block .article .img .tag, body #root .App .admin .article-news .news-is .content .preview .block .article .img .tag {
+                    position: absolute;
+                    padding: 5px 20px;
+                    bottom: 10px;
+                    font-size: .9em;
+                    font-family: "Roboto-Light";
+                    right: 10px;
+                    border-radius: 10px;
+                    color: white;
+                    background: #00d78c; }
+                  html #root .App .admin .article-news .news-is .content .preview .block .article .img .green-tag, body #root .App .admin .article-news .news-is .content .preview .block .article .img .green-tag {
+                    background: #46d700; }
+                  html #root .App .admin .article-news .news-is .content .preview .block .article .img .pink-tag, body #root .App .admin .article-news .news-is .content .preview .block .article .img .pink-tag {
+                    background: #ff0081; }
+                html #root .App .admin .article-news .news-is .content .preview .block .article .date, body #root .App .admin .article-news .news-is .content .preview .block .article .date {
+                  margin: 10px 0;
+                  color: #7f7e81;
+                  padding-left: 5px; }
+                  html #root .App .admin .article-news .news-is .content .preview .block .article .date i, body #root .App .admin .article-news .news-is .content .preview .block .article .date i {
+                    margin-right: 3px;
+                    transition: .25s; }
+                    html #root .App .admin .article-news .news-is .content .preview .block .article .date i:last-child, body #root .App .admin .article-news .news-is .content .preview .block .article .date i:last-child {
+                      margin-left: 10px; }
+                html #root .App .admin .article-news .news-is .content .preview .block .article .short-desc, body #root .App .admin .article-news .news-is .content .preview .block .article .short-desc {
+                  padding-left: 5px;
+                  text-wrap: revert; }
+                html #root .App .admin .article-news .news-is .content .preview .block .article:hover, body #root .App .admin .article-news .news-is .content .preview .block .article:hover {
+                  filter: drop-shadow(0px 0px 10px rgba(127, 126, 129, 0.5)); }
+                  html #root .App .admin .article-news .news-is .content .preview .block .article:hover .date i, body #root .App .admin .article-news .news-is .content .preview .block .article:hover .date i {
+                    color: #5326d3; }
+                    html #root .App .admin .article-news .news-is .content .preview .block .article:hover .date i:last-child, body #root .App .admin .article-news .news-is .content .preview .block .article:hover .date i:last-child {
+                      color: #f73d53; }
+        html #root .App .admin .article-news .news-is .btns, body #root .App .admin .article-news .news-is .btns {
+          display: flex;
+          align-items: center;
+          justify-content: space-between; }
+          html #root .App .admin .article-news .news-is .btns .btn-save, html #root .App .admin .article-news .news-is .btns .btn-delete, body #root .App .admin .article-news .news-is .btns .btn-save, body #root .App .admin .article-news .news-is .btns .btn-delete {
+            width: 45%;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 13px;
+            border: 1px solid #5326d3;
+            cursor: pointer;
+            text-transform: uppercase;
+            background: #f4f2f2;
+            color: #5326d3;
+            transition: .25s; }
+            html #root .App .admin .article-news .news-is .btns .btn-save:hover, html #root .App .admin .article-news .news-is .btns .btn-delete:hover, body #root .App .admin .article-news .news-is .btns .btn-save:hover, body #root .App .admin .article-news .news-is .btns .btn-delete:hover {
+              color: #f73d53;
+              border-color: #f73d53; }
+      html #root .App .admin .news-is .content-for-events, body #root .App .admin .news-is .content-for-events {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap; }
+        html #root .App .admin .news-is .content-for-events .left, html #root .App .admin .news-is .content-for-events .right, body #root .App .admin .news-is .content-for-events .left, body #root .App .admin .news-is .content-for-events .right {
+          flex: 45%; }
+        html #root .App .admin .news-is .content-for-events .all, body #root .App .admin .news-is .content-for-events .all {
+          flex: 100%; }
+        html #root .App .admin .news-is .content-for-events .right .preview-event, body #root .App .admin .news-is .content-for-events .right .preview-event {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          box-sizing: border-box;
+          justify-content: space-between; }
+          html #root .App .admin .news-is .content-for-events .right .preview-event .article, body #root .App .admin .news-is .content-for-events .right .preview-event .article {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            flex: 100%;
+            margin: 20px 0;
+            transition: .25s; }
+            html #root .App .admin .news-is .content-for-events .right .preview-event .article .date-logo, body #root .App .admin .news-is .content-for-events .right .preview-event .article .date-logo {
+              color: white;
+              margin-right: 20px;
+              width: 75px;
+              height: 75px;
+              border-radius: 50%;
+              background: #f73d53;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              transition: .25s; }
+              html #root .App .admin .news-is .content-for-events .right .preview-event .article .date-logo .number, body #root .App .admin .news-is .content-for-events .right .preview-event .article .date-logo .number {
+                font-family: "ProximaNova-Bold";
+                font-size: 1.4em; }
+              html #root .App .admin .news-is .content-for-events .right .preview-event .article .date-logo .month, body #root .App .admin .news-is .content-for-events .right .preview-event .article .date-logo .month {
+                font-family: "Roboto-Light";
+                font-size: .8em; }
+            html #root .App .admin .news-is .content-for-events .right .preview-event .article .title, body #root .App .admin .news-is .content-for-events .right .preview-event .article .title {
+              max-width: 70%;
+              font-family: "Roboto-Light";
+              line-height: 20px;
+              letter-spacing: -0.5px; }
+            html #root .App .admin .news-is .content-for-events .right .preview-event .article:hover, body #root .App .admin .news-is .content-for-events .right .preview-event .article:hover {
+              transform: scale(1.02);
+              filter: drop-shadow(0px 0px 10px rgba(127, 126, 129, 0.3)); }
+              html #root .App .admin .news-is .content-for-events .right .preview-event .article:hover .date-logo, body #root .App .admin .news-is .content-for-events .right .preview-event .article:hover .date-logo {
+                background: #5326d3; }
+      html #root .App .admin .news-is .main-h2-lect .little-head, body #root .App .admin .news-is .main-h2-lect .little-head {
+        display: flex;
+        flex-wrap: wrap; }
+        html #root .App .admin .news-is .main-h2-lect .little-head .small, body #root .App .admin .news-is .main-h2-lect .little-head .small {
+          flex: 100%;
+          text-align: right;
+          font-size: .7em; }
+      html #root .App .admin .news-is .content-for-lectures .upload-photo .photo, body #root .App .admin .news-is .content-for-lectures .upload-photo .photo {
+        background: no-repeat center 0px;
+        background-size: cover;
+        margin-right: 50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px 1px rgba(37, 43, 51, 0.6);
+        cursor: pointer;
+        position: relative;
+        transition: .25s; }
+        html #root .App .admin .news-is .content-for-lectures .upload-photo .photo:before, body #root .App .admin .news-is .content-for-lectures .upload-photo .photo:before {
+          content: 'Добавить';
+          position: absolute;
+          opacity: 0;
+          background: rgba(0, 0, 0, 0.6);
+          width: 100%;
+          height: 100%;
+          transition: .25s;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          border-radius: 50%; }
+        html #root .App .admin .news-is .content-for-lectures .upload-photo .photo:hover:before, body #root .App .admin .news-is .content-for-lectures .upload-photo .photo:hover:before {
+          opacity: 1; }
+      html #root .App .admin .news-is .content-for-lectures #file, body #root .App .admin .news-is .content-for-lectures #file {
+        visibility: hidden; }
+      html #root .App .admin .news-is .content-for-lectures h2, body #root .App .admin .news-is .content-for-lectures h2 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        box-sizing: border-box;
+        width: 100%;
+        position: relative; }
+        html #root .App .admin .news-is .content-for-lectures h2 .underline, body #root .App .admin .news-is .content-for-lectures h2 .underline {
+          padding-bottom: 15px;
+          padding-left: 5px;
+          padding-right: 5px;
+          color: #5326d3;
+          border-bottom: 3px solid #341690; }
+        html #root .App .admin .news-is .content-for-lectures h2:after, body #root .App .admin .news-is .content-for-lectures h2:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background: #cecdd0;
+          bottom: 0;
+          left: 0; }
+      html #root .App .admin .news-is .content-for-lectures .desc, body #root .App .admin .news-is .content-for-lectures .desc {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 40px; }
+        html #root .App .admin .news-is .content-for-lectures .desc input, body #root .App .admin .news-is .content-for-lectures .desc input {
+          width: 100%;
+          padding: 10px 15px;
+          border-radius: 13px;
+          font-size: 1.1em;
+          outline: none;
+          border: 1px solid #f73d53;
+          border-top-color: transparent;
+          border-right-color: transparent;
+          border-left-color: transparent;
+          margin-top: 10px;
+          transition: .25s;
+          background: white; }
+          html #root .App .admin .news-is .content-for-lectures .desc input:hover, html #root .App .admin .news-is .content-for-lectures .desc input:active, html #root .App .admin .news-is .content-for-lectures .desc input:focus, body #root .App .admin .news-is .content-for-lectures .desc input:hover, body #root .App .admin .news-is .content-for-lectures .desc input:active, body #root .App .admin .news-is .content-for-lectures .desc input:focus {
+            background: #f4f2f2;
+            border-color: #5326d3; }
+      html #root .App .admin .news-is .content-for-lectures .consult, body #root .App .admin .news-is .content-for-lectures .consult {
+        margin-bottom: 50px; }
+        html #root .App .admin .news-is .content-for-lectures .consult .status span, body #root .App .admin .news-is .content-for-lectures .consult .status span {
+          padding: 3px 4px;
+          border-radius: 6px;
+          background: limegreen;
+          color: white; }
+        html #root .App .admin .news-is .content-for-lectures .consult .status .off, body #root .App .admin .news-is .content-for-lectures .consult .status .off {
+          background: red;
+          color: white; }
+        html #root .App .admin .news-is .content-for-lectures .consult .DayPicker, body #root .App .admin .news-is .content-for-lectures .consult .DayPicker {
+          background: #f4f2f2; }
+      html #root .App .admin .news-is .content-for-lectures .add-pub-less, body #root .App .admin .news-is .content-for-lectures .add-pub-less {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start; }
+        html #root .App .admin .news-is .content-for-lectures .add-pub-less input, body #root .App .admin .news-is .content-for-lectures .add-pub-less input {
+          margin-bottom: 15px; }
+        html #root .App .admin .news-is .content-for-lectures .add-pub-less #aud, html #root .App .admin .news-is .content-for-lectures .add-pub-less #theme, body #root .App .admin .news-is .content-for-lectures .add-pub-less #aud, body #root .App .admin .news-is .content-for-lectures .add-pub-less #theme {
+          margin-bottom: 15px;
+          width: 100%;
+          padding: 10px 15px;
+          border-radius: 13px;
+          font-size: 1.1em;
+          outline: none;
+          border: 1px solid #f73d53;
+          border-top-color: transparent;
+          border-right-color: transparent;
+          border-left-color: transparent;
+          margin-top: 10px;
+          transition: .25s;
+          background: white; }
+          html #root .App .admin .news-is .content-for-lectures .add-pub-less #aud:hover, html #root .App .admin .news-is .content-for-lectures .add-pub-less #aud:active, html #root .App .admin .news-is .content-for-lectures .add-pub-less #aud:focus, html #root .App .admin .news-is .content-for-lectures .add-pub-less #theme:hover, html #root .App .admin .news-is .content-for-lectures .add-pub-less #theme:active, html #root .App .admin .news-is .content-for-lectures .add-pub-less #theme:focus, body #root .App .admin .news-is .content-for-lectures .add-pub-less #aud:hover, body #root .App .admin .news-is .content-for-lectures .add-pub-less #aud:active, body #root .App .admin .news-is .content-for-lectures .add-pub-less #aud:focus, body #root .App .admin .news-is .content-for-lectures .add-pub-less #theme:hover, body #root .App .admin .news-is .content-for-lectures .add-pub-less #theme:active, body #root .App .admin .news-is .content-for-lectures .add-pub-less #theme:focus {
+            background: #f4f2f2;
+            border-color: #5326d3; }
+      html #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container, body #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between; }
+        html #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons, body #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons {
+          flex: 30%;
+          width: 30%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          max-width: 30%;
+          min-height: 150px;
+          padding: 15px 25px;
+          border: 1px solid;
+          border-radius: 16px;
+          box-shadow: 0 0 10px 1px rgba(37, 43, 51, 0.2); }
+          html #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .photo, body #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .photo {
+            margin-right: 15px; }
+            html #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .photo img, body #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .photo img {
+              width: 75px; }
+          html #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .descr h3, body #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .descr h3 {
+            margin: 0; }
+          html #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .descr h4, body #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .descr h4 {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 0; }
+            html #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .descr h4 i, body #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .descr h4 i {
+              margin-right: 5px;
+              margin-bottom: -5px;
+              font-size: 1.2em;
+              color: #5326d3; }
+              html #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .descr h4 i:last-child, body #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .descr h4 i:last-child {
+                margin-left: 10px;
+                color: #f73d53; }
+          html #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .descr p, body #root .App .admin .news-is .content-for-lectures .publ-lessons .pub-container .open-lessons .descr p {
+            margin: 7px 0; }
+    html #root .App .footer, body #root .App .footer {
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 25px 50px 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      background: #341690;
+      color: white; }
+      html #root .App .footer .col-3, body #root .App .footer .col-3 {
+        flex: 30%;
+        width: 30%;
+        max-width: 30%; }
+        html #root .App .footer .col-3 .logo, body #root .App .footer .col-3 .logo {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin-bottom: 20px; }
+          html #root .App .footer .col-3 .logo img, body #root .App .footer .col-3 .logo img {
+            width: 70px; }
+          html #root .App .footer .col-3 .logo .top, body #root .App .footer .col-3 .logo .top {
+            text-transform: uppercase;
+            font-size: 1em;
+            line-height: 24px;
+            font-family: "ProximaNova-Bold";
+            margin-left: 10px; }
+        html #root .App .footer .col-3 .copyright-univ, body #root .App .footer .col-3 .copyright-univ {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          color: #7f7e81;
+          font-family: "Roboto-Light";
+          font-size: .9em;
+          line-height: 18px;
+          margin-bottom: 20px;
+          letter-spacing: -0.5px; }
+          html #root .App .footer .col-3 .copyright-univ i, body #root .App .footer .col-3 .copyright-univ i {
+            font-size: 1.5em;
+            margin-right: 5px;
+            color: white;
+            align-self: center; }
+          html #root .App .footer .col-3 .copyright-univ .opis, body #root .App .footer .col-3 .copyright-univ .opis {
+            display: block; }
+            html #root .App .footer .col-3 .copyright-univ .opis span, body #root .App .footer .col-3 .copyright-univ .opis span {
+              padding-left: 5px; }
+        html #root .App .footer .col-3 .copyright-romka, body #root .App .footer .col-3 .copyright-romka {
+          color: #7f7e81;
+          font-size: .9em;
+          margin-bottom: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          font-family: "Roboto-Light"; }
+          html #root .App .footer .col-3 .copyright-romka i, body #root .App .footer .col-3 .copyright-romka i {
+            color: white;
+            margin: 0 5px;
+            margin-bottom: -4px; }
+          html #root .App .footer .col-3 .copyright-romka a, body #root .App .footer .col-3 .copyright-romka a {
+            font-family: "ProximaNova-Bold";
+            margin-left: 5px;
+            font-size: 1.1em;
+            text-decoration: none;
+            color: white; }
+        html #root .App .footer .col-3 h2, body #root .App .footer .col-3 h2 {
+          font-size: 1em; }
+        html #root .App .footer .col-3 .footer-contacts, body #root .App .footer .col-3 .footer-contacts {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column; }
+          html #root .App .footer .col-3 .footer-contacts a, body #root .App .footer .col-3 .footer-contacts a {
+            text-decoration: none;
+            color: #7f7e81;
+            display: flex;
+            margin-bottom: 10px;
+            transition: .25s;
+            align-items: flex-start;
+            font-family: "Roboto-Light";
+            font-size: .9em;
+            letter-spacing: -0.5px;
+            justify-content: flex-start; }
+            html #root .App .footer .col-3 .footer-contacts a i, body #root .App .footer .col-3 .footer-contacts a i {
+              font-size: 1.1em;
+              color: white;
+              margin-right: 10px;
+              transition: .25s; }
+            html #root .App .footer .col-3 .footer-contacts a:hover, body #root .App .footer .col-3 .footer-contacts a:hover {
+              color: white; }
+              html #root .App .footer .col-3 .footer-contacts a:hover i, body #root .App .footer .col-3 .footer-contacts a:hover i {
+                color: #f73d53; }
+        html #root .App .footer .col-3 .mini-socials, body #root .App .footer .col-3 .mini-socials {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-between; }
+          html #root .App .footer .col-3 .mini-socials a, body #root .App .footer .col-3 .mini-socials a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none; }
+            html #root .App .footer .col-3 .mini-socials a li, body #root .App .footer .col-3 .mini-socials a li {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 40px;
+              height: 40px;
+              font-size: 1.3em;
+              transition: .25s;
+              border-radius: 50%;
+              background: #230060; }
+              html #root .App .footer .col-3 .mini-socials a li i, body #root .App .footer .col-3 .mini-socials a li i {
+                color: #aeadb0;
+                margin-bottom: -7px;
+                transition: .25s; }
+            html #root .App .footer .col-3 .mini-socials a:hover li i, body #root .App .footer .col-3 .mini-socials a:hover li i {
+              color: white; }
+      html #root .App .footer .col-1, body #root .App .footer .col-1 {
+        position: absolute;
+        flex: 100%;
+        width: calc(100%);
+        display: flex;
+        align-items: center;
+        bottom: 0;
+        box-sizing: border-box;
+        padding: 10px 50px;
+        color: #7f7e81;
+        justify-content: flex-start;
+        left: 0;
+        background: #230060; }
+      @media only screen and (max-width: 376px) {
+        html #root .App .footer, body #root .App .footer {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          html #root .App .footer .col-1, body #root .App .footer .col-1 {
+            display: none; }
+          html #root .App .footer .col-3, body #root .App .footer .col-3 {
+            flex: 100%;
+            width: 100%;
+            max-width: 100%; }
+            html #root .App .footer .col-3 .copyright-romka, body #root .App .footer .col-3 .copyright-romka {
+              margin-bottom: 10px; }
+            html #root .App .footer .col-3 .mini-socials, body #root .App .footer .col-3 .mini-socials {
+              margin-bottom: 25px; } }
+    html #root .App .request-loading, body #root .App .request-loading {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      left: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      color: red;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999; }
+      html #root .App .request-loading div, body #root .App .request-loading div {
+        position: relative;
+        z-index: 100000000000; }
+  @media only screen and (max-width: 376px) {
+    html #root .mini-header, body #root .mini-header {
+      display: none !important; }
+    html #root .header, body #root .header {
+      display: none !important; }
+    html #root .mob-header, body #root .mob-header {
+      display: flex !important; }
+    html #root .open-mob-header, body #root .open-mob-header {
+      display: flex !important;
+      position: fixed; } }
+  html #root .open-mob-header, body #root .open-mob-header {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background: #5326d3;
+    z-index: 9999999; }
+  html .DayPicker-NavBar .DayPicker-NavButton--prev, body .DayPicker-NavBar .DayPicker-NavButton--prev {
+    right: auto;
+    left: 1.3em;
+    margin-right: 0; }
+  html .DayPicker-Month .DayPicker-Caption div, body .DayPicker-Month .DayPicker-Caption div {
+    text-align: center; }
+  html .DayPicker-wrapper, body .DayPicker-wrapper {
+    outline: none; }
+  html .DayPicker-Day, body .DayPicker-Day {
+    outline: none; }
+    html .DayPicker-Day:hover, body .DayPicker-Day:hover {
+      background: rgba(247, 61, 83, 0.4) !important; }
+  html .DayPicker-Day--highlighted, body .DayPicker-Day--highlighted {
+    background-color: #f73d53;
+    color: white; }
+  html .DayPicker-Day--selected, body .DayPicker-Day--selected {
+    background: #5326d3 !important; }
+    html .DayPicker-Day--selected:hover, body .DayPicker-Day--selected:hover {
+      background: #5326d3 !important;
+      color: white; }
+
+.non-scroll {
+  overflow: hidden !important; }

@@ -1,0 +1,271 @@
+@import "../../Variables.scss";
+.admin{
+  background: white;
+  width: 100%;
+  .admin-head{
+    z-index: 99;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 25px 50px;
+    background: $almost-white;
+    color: $almost-black;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+
+    .logo{
+      font-size: 2em;
+      color: $purple-light;
+    }
+    .menu{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      list-style: none;
+      li{
+        margin-right: 10px;
+        font-size: 1.1em;
+        cursor: pointer;
+        transition: .25s;
+        &:hover{
+          color: $pink;
+        }
+      }
+    }
+  }
+  .btn-add{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 13px;
+    border: 1px solid #5326d3;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #f4f2f2;
+    color: #5326d3;
+    transition: .25s;
+    &:hover{
+      color: $pink;
+      border-color: $pink;
+    }
+  }
+
+
+  .controls {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .2);
+    position: relative;
+    overflow: hidden;
+    &:before{
+      z-index: 0;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      //background: #000;
+      box-shadow: inset 0 0 50px 100px rgba(240, 242, 243, 1.000);
+      filter: blur(5px);
+    }
+    .RichEditor-controls {
+      position: relative;
+      display: flex;
+      align-items: center;
+      //justify-content: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      justify-content: flex-start;
+      padding-left: 15px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      //background: rgba(0, 0, 0, .1);
+      div {
+        margin-right: 10px;
+        padding: 5px 10px;
+        border: 2px solid $purple-light;
+        border-radius: 6px;
+        color: black;
+        cursor: pointer;
+        transition: .25s;
+        background: white;
+        &:hover {
+          //background: rgba(158, 125, 49, 1.000);
+          background: $purple-light;
+          color: white;
+        }
+      }
+      .RichEditor-activeButton {
+        //background: rgba(158, 125, 49, 1.000);
+        background: $purple-light;
+        color: white;
+      }
+    }
+    .top {
+      //flex: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 15px;
+      //background: rgba(0, 0, 0, .1);
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(209, 219, 227, 1.000);
+      //margin-top: 10px;
+      button {
+        margin-right: 10px;
+        //background: transparent;
+        padding: 5px 10px;
+        //border: 1px solid powderblue;
+        border: 2px solid $purple-light;
+        color: black;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .25s;
+        background: white;
+
+        &:hover {
+          background: $purple-light;
+          color: white;
+        }
+      }
+    }
+  }
+  .DraftEditor-root{
+    padding: 15px 25px;
+    width: 100%;
+    max-height: 65vh;
+    overflow: auto;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 2px solid rgba(240, 242, 243, 1.000);
+    border-top-color: transparent;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .2);
+
+
+    .DraftEditor-editorContainer {
+      box-sizing: border-box;
+      .public-DraftEditor-content{
+        box-sizing: border-box;
+        min-height: 60vh;
+
+
+        h1,h2, h3, h4{
+          //color: rgba(158, 125, 49, 1.000);
+          color: #000;
+        }
+        span.padding{
+          padding-left: 15px;
+        }
+        p{
+          color: #888888;
+          line-height: 31px;
+          font-size: 18px;
+          letter-spacing: -0.5px;
+          padding: 0 0 0 15px ;
+        }
+        ul, ol{
+          color: #888888;
+          line-height: 31px;
+          font-size: 18px;
+          letter-spacing: -0.5px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          li{
+            //cursor: pointer;
+            //transition: .25s;
+            //&:hover{
+            //  color: black;
+            //}
+          }
+          //padding: 0 0 0 15px ;
+        }
+        b{
+          color: #000;
+        }
+      }
+    }
+  }
+  .enter{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    input{
+      margin-bottom: 25px;
+      width: 250px;
+      border: 1px solid $purple-light;
+      border-radius: 7px;
+      outline: none;
+      padding: 7px 10px;
+      transition: .25s;
+
+      &:hover, &:active, &:focus{
+        border-color: $pink;
+
+      }
+    }
+    .btn{
+      padding: 10px 15px;
+      //border: 2px solid $pink;
+      background: $purple-light;
+      text-align: center;
+      color: white;
+      border-radius: 12px;
+      transition: .25s;
+      cursor: pointer;
+      &:hover{
+        background: $pink;
+      }
+    }
+  }
+
+  .admin-settings{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    .add-new-user{
+      padding-top: 15px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      input{
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        border: 1px solid $purple-light;
+        border-radius: 6px;
+        transition: .25s;
+        outline: none;
+
+        &:focus,&:hover, &:active{
+          border-color: $pink;
+        }
+      }
+      .btn-add-new{
+        padding: 5px 10px;
+        background: $purple-light;
+        border-radius: 6px;
+        transition: .25s;
+        cursor: pointer;
+        color: white;
+        &:hover{
+          background: $pink;
+        }
+      }
+    }
+  }
+
+  @import "news.scss";
+  @import "events.scss";
+  @import "lecturers.scss";
+
+}

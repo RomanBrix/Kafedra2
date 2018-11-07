@@ -1,0 +1,202 @@
+@import "../../Variables.scss";
+
+.footer{
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 25px 50px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  //background: $purple;
+  background: rgba(52, 22, 144, 1.000);
+  color: white;
+  .col{}
+  .col-3{
+    flex: 30%;
+    width: 30%;
+    max-width: 30%;
+
+
+    .logo{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+
+      img{
+        width: 70px;
+      }
+      .top{
+        text-transform: uppercase;
+        font-size: 1em;
+        line-height: 24px;
+        //margin-bottom: 5px;
+        font-family: $font-ProximaNova-bold;
+        margin-left: 10px;
+      }
+    }
+
+    .copyright-univ{
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      color: #7f7e81;
+     font-family:  $font-Roboto-light;
+      font-size: .9em;
+      line-height: 18px;
+      margin-bottom: 20px;
+      letter-spacing: -0.5px;
+
+      i{
+        font-size: 1.5em;
+        margin-right: 5px;
+        color: white;
+        align-self: center;
+      }
+      .opis{
+        display: block;
+        span{
+          padding-left: 5px;
+        }
+      }
+    }
+    .copyright-romka{
+      color: #7f7e81;
+      font-size: .9em;
+      margin-bottom: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-family: $font-Roboto-light;
+
+      i{
+        color: white;
+        margin: 0 5px;
+        margin-bottom: -4px;
+      }
+      a{
+        font-family: $font-ProximaNova-bold;
+        margin-left: 5px;
+        font-size: 1.1em;
+        text-decoration: none;
+        color: white;
+      }
+    }
+
+
+    h2{
+      font-size: 1em;
+    }
+    .footer-contacts{
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+      a{
+        text-decoration: none;
+        color: #7f7e81;
+        display: flex;
+        margin-bottom: 10px;
+        transition: .25s;
+        align-items: flex-start;
+        font-family: $font-Roboto-light;
+        font-size: .9em;
+        letter-spacing: -0.5px;
+        justify-content: flex-start;
+        i{
+          font-size: 1.1em;
+          color: white;
+          margin-right: 10px;
+          transition: .25s;
+
+        }
+        &:hover{
+          color: white;
+          i{
+            color: $pink;
+          }
+        }
+      }
+    }
+
+
+    .mini-socials{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        li {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          font-size: 1.3em;
+          transition: .25s;
+          border-radius: 50%;
+          background: rgba(35, 0, 96, 1.000);
+          i {
+            color: #aeadb0;
+            margin-bottom: -7px;
+            transition: .25s;
+          }
+        }
+
+        &:hover{
+          li{
+            //width: 55px;
+            //height: 55px;
+            i{
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+  .col-1{
+    position: absolute;
+    flex: 100%;
+    width: calc(100%);
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    color: #7f7e81;
+    justify-content: flex-start;
+    left: 0;
+    background: rgba(35, 0, 96, 1.000);
+  }
+
+  @media only screen and (max-width: 376px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .col-1{
+      display: none;
+    }
+    .col-3{
+      flex: 100%;
+      width: 100%;
+      max-width: 100%;
+      .copyright-romka{
+        margin-bottom: 10px;
+      }
+      .mini-socials{
+        margin-bottom: 25px;
+      }
+    }
+  }
+}

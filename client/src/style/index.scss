@@ -1,0 +1,149 @@
+
+@import "../../node_modules/react-day-picker/lib/style";
+@import "Variables.scss";
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  font-family: $font-Roboto-regular, $font-ProximaNova-regular;
+  box-sizing: border-box;
+  //overflow: hidden;
+  background: $almost-white;
+  #root {
+    .App {
+      //text-align: center;
+      background: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+
+      @import "scss/layers/MiniHeader.scss";
+      @import "scss/layers/Header.scss";
+      @import "scss/layers/mobHead.scss";
+
+      @import "scss/main/index.scss";
+      @import "scss/about/index.scss";
+      @import "scss/lectors/index.scss";
+      @import "scss/lectors/graphs.scss";
+      @import "scss/news/news.scss";
+      @import "scss/news/ArticleNews.scss";
+      @import "scss/events/index.scss";
+
+      @import "scss/layers/DraftJs.scss";
+      @import "scss/contacts/index.scss";
+
+      @import "scss/admin/index.scss";
+      @import "scss/layers/Footer.scss";
+
+
+
+
+      .request-loading{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        //font-size: 3em;
+        background: rgba(0, 0, 0, .7);
+        display: flex;
+        color: red;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        div{
+          position: relative;
+          z-index: 100000000000;
+        }
+      }
+    }
+    @media only screen and (max-width: 376px) {
+
+      .mini-header{
+        display: none !important;
+      }
+      .header{
+        display: none !important;
+      }
+      .mob-header{
+        display: flex !important;
+      }
+      .open-mob-header{
+        display: flex !important;
+        position: fixed;
+      }
+    }
+    .open-mob-header{
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 5px 10px;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      background: $purple-light;
+      z-index: 9999999;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+    .DayPicker-NavBar {
+      .DayPicker-NavButton {
+        &:hover {
+
+        }
+      }
+      .DayPicker-NavButton--prev {
+        right: auto;
+        left: 1.3em;
+        margin-right: 0;
+      }
+    }
+    .DayPicker-Month {
+      .DayPicker-Caption {
+        div {
+          text-align: center;
+        }
+      }
+    }
+    .DayPicker-wrapper {
+      outline: none;
+    }
+    .DayPicker-Day {
+      outline: none;
+
+      &:hover {
+        background: rgba(247, 61, 83, .4) !important;
+      }
+    }
+    .DayPicker-Day--highlighted {
+      background-color: $pink;
+      color: white;
+    }
+    .DayPicker-Day--selected {
+      background: $purple-light !important;
+      &:hover{
+        background: $purple-light !important;
+        color: white;
+      }
+    }
+}
+
+.non-scroll{
+  overflow: hidden !important;
+}

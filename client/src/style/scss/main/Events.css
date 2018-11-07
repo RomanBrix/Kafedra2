@@ -1,0 +1,324 @@
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+/* DayPicker styles */
+.DayPicker {
+  display: inline-block;
+  font-size: 1rem; }
+
+.DayPicker-wrapper {
+  position: relative;
+  flex-direction: row;
+  padding-bottom: 1em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.DayPicker-Months {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.DayPicker-Month {
+  display: table;
+  margin: 0 1em;
+  margin-top: 1em;
+  border-spacing: 0;
+  border-collapse: collapse;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.DayPicker-NavButton {
+  position: absolute;
+  top: 1em;
+  right: 1.5em;
+  left: auto;
+  display: inline-block;
+  margin-top: 2px;
+  width: 1.25em;
+  height: 1.25em;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  color: #8B9898;
+  cursor: pointer; }
+
+.DayPicker-NavButton:hover {
+  opacity: 0.8; }
+
+.DayPicker-NavButton--prev {
+  margin-right: 1.5em;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAVVJREFUWAnN2G0KgjAYwPHpGfRkaZeqvgQaK+hY3SUHrk1YzNLay/OiEFp92I+/Mp2F2Mh2lLISWnflFjzH263RQjzMZ19wgs73ez0o1WmtW+dgA01VxrE3p6l2GLsnBy1VYQOtVSEH/atCCgqpQgKKqYIOiq2CBkqtggLKqQIKgqgCBjpJ2Y5CdJ+zrT9A7HHSTA1dxUdHgzCqJIEwq0SDsKsEg6iqBIEoq/wEcVRZBXFV+QJxV5mBtlDFB5VjYTaGZ2sf4R9PM7U9ZU+lLuaetPP/5Die3ToO1+u+MKtHs06qODB2zBnI/jBd4MPQm1VkY79Tb18gB+C62FdBFsZR6yeIo1YQiLJWMIiqVjQIu1YSCLNWFgijVjYIuhYYCKoWKAiiFgoopxYaKLUWOii2FgkophYp6F3r42W5A9s9OcgNvva8xQaysKXlFytoqdYmQH6tF3toSUo0INq9AAAAAElFTkSuQmCC"); }
+
+.DayPicker-NavButton--next {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAXRJREFUWAnN119ugjAcwPHWzJ1gnmxzB/BBE0n24m4xfNkTaOL7wOtsl3AXMMb+Vjaa1BG00N8fSEibPpAP3xAKKs2yjzTPH9RAjhEo9WzPr/Vm8zgE0+gXATAxxuxtqeJ9t5tIwv5AtQAApsfT6TPdbp+kUBcgVwvO51KqVhMkXKsVJFXrOkigVhCIs1Y4iKlWZxB1rX4gwlpRIIpa8SDkWmggrFq4IIRaJKCYWnSgnrXIQV1r8YD+1Vrn+bReagysIFfLABRt31v8oBu1xEBttfRbltmfjgEcWh9snUS2kNdBK6WN1vrOWxObWsz+fjxevsxmB1GQDfINWiev83nhaoiB/CoOU438oPrhXS0WpQ9xc1ZQWxWHqUYe0I0qrKCQKjygDlXIQV2r0IF6ViEBxVTBBSFUQQNhVYkHIVeJAtkNsbQ7c1LtzP6FsObhb2rCKv7NBIGoq4SDmKoEgTirXAcJVGkFSVVpgoSrXICGUMUH/QBZNSUy5XWUhwAAAABJRU5ErkJggg=="); }
+
+.DayPicker-NavButton--interactionDisabled {
+  display: none; }
+
+.DayPicker-Caption {
+  display: table-caption;
+  margin-bottom: 0.5em;
+  padding: 0 0.5em;
+  text-align: left; }
+
+.DayPicker-Caption > div {
+  font-weight: 500;
+  font-size: 1.15em; }
+
+.DayPicker-Weekdays {
+  display: table-header-group;
+  margin-top: 1em; }
+
+.DayPicker-WeekdaysRow {
+  display: table-row; }
+
+.DayPicker-Weekday {
+  display: table-cell;
+  padding: 0.5em;
+  color: #8B9898;
+  text-align: center;
+  font-size: 0.875em; }
+
+.DayPicker-Weekday abbr[title] {
+  border-bottom: none;
+  text-decoration: none; }
+
+.DayPicker-Body {
+  display: table-row-group; }
+
+.DayPicker-Week {
+  display: table-row; }
+
+.DayPicker-Day {
+  display: table-cell;
+  padding: 0.5em;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer; }
+
+.DayPicker-WeekNumber {
+  display: table-cell;
+  padding: 0.5em;
+  min-width: 1em;
+  border-right: 1px solid #EAECEC;
+  color: #8B9898;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 0.75em;
+  cursor: pointer; }
+
+.DayPicker--interactionDisabled .DayPicker-Day {
+  cursor: default; }
+
+.DayPicker-Footer {
+  padding-top: 0.5em; }
+
+.DayPicker-TodayButton {
+  border: none;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  color: #4A90E2;
+  font-size: 0.875em;
+  cursor: pointer; }
+
+/* Default modifiers */
+.DayPicker-Day--today {
+  color: #D0021B;
+  font-weight: 700; }
+
+.DayPicker-Day--outside {
+  color: #8B9898;
+  cursor: default; }
+
+.DayPicker-Day--disabled {
+  color: #DCE0E0;
+  cursor: default;
+  /* background-color: #eff1f1; */ }
+
+/* Example modifiers */
+.DayPicker-Day--sunday {
+  background-color: #F7F8F8; }
+
+.DayPicker-Day--sunday:not(.DayPicker-Day--today) {
+  color: #DCE0E0; }
+
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  position: relative;
+  background-color: #4A90E2;
+  color: #F0F8FF; }
+
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):hover {
+  background-color: #51A0FA; }
+
+.DayPicker:not(.DayPicker--interactionDisabled)
+.DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+  background-color: #F0F8FF; }
+
+/* DayPickerInput */
+.DayPickerInput {
+  display: inline-block; }
+
+.DayPickerInput-OverlayWrapper {
+  position: relative; }
+
+.DayPickerInput-Overlay {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); }
+
+.events {
+  width: 100%;
+  padding: 30px 50px;
+  box-sizing: border-box; }
+  .events .events-container {
+    box-sizing: border-box;
+    width: 100%; }
+    .events .events-container h2 {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      box-sizing: border-box;
+      width: 100%;
+      position: relative; }
+      .events .events-container h2 .underline {
+        padding-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #5326d3;
+        border-bottom: 3px solid #341690; }
+      .events .events-container h2 .little-head {
+        color: #7f7e81;
+        font-size: .7em;
+        font-family: "Roboto-Light";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: .2s; }
+        .events .events-container h2 .little-head i {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: -3px;
+          margin-left: 15px;
+          transition: .2s;
+          color: inherit; }
+        .events .events-container h2 .little-head:hover {
+          color: #5326d3; }
+          .events .events-container h2 .little-head:hover i {
+            color: #5326d3; }
+      .events .events-container h2:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: #cecdd0;
+        bottom: 0;
+        left: 0; }
+    .events .events-container .article-container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between; }
+      .events .events-container .article-container .own-calendar {
+        max-width: 25%; }
+        .events .events-container .article-container .own-calendar .DayPicker-NavBar .DayPicker-NavButton--prev {
+          right: auto;
+          left: 1.3em;
+          margin-right: 0; }
+        .events .events-container .article-container .own-calendar .DayPicker-Month .DayPicker-Caption div {
+          text-align: center; }
+        .events .events-container .article-container .own-calendar .DayPicker-wrapper {
+          outline: none; }
+        .events .events-container .article-container .own-calendar .DayPicker-Day {
+          outline: none; }
+          .events .events-container .article-container .own-calendar .DayPicker-Day:hover {
+            background: rgba(247, 61, 83, 0.4) !important; }
+        .events .events-container .article-container .own-calendar .DayPicker-Day--highlighted {
+          background-color: #f73d53;
+          color: white; }
+        .events .events-container .article-container .own-calendar .DayPicker-Day--selected {
+          background: #5326d3; }
+      .events .events-container .article-container .articles {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        box-sizing: border-box;
+        justify-content: space-between; }
+        .events .events-container .article-container .articles h3 {
+          text-align: center;
+          width: 100%; }
+        .events .events-container .article-container .articles .article {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          width: 45%;
+          max-width: 45%;
+          box-sizing: border-box;
+          flex: 45%;
+          margin: 20px 0;
+          cursor: pointer;
+          transition: .25s; }
+          .events .events-container .article-container .articles .article .date-logo {
+            color: white;
+            margin-right: 20px;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            background: #f73d53;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: .25s; }
+            .events .events-container .article-container .articles .article .date-logo .number {
+              font-family: "ProximaNova-Bold";
+              font-size: 1.4em; }
+            .events .events-container .article-container .articles .article .date-logo .month {
+              font-family: "Roboto-Light";
+              font-size: .8em; }
+          .events .events-container .article-container .articles .article .title {
+            max-width: 70%;
+            font-family: "Roboto-Light";
+            line-height: 20px;
+            letter-spacing: -0.5px; }
+          .events .events-container .article-container .articles .article:hover {
+            transform: scale(1.02);
+            filter: drop-shadow(0px 0px 10px rgba(127, 126, 129, 0.3)); }
+            .events .events-container .article-container .articles .article:hover .date-logo {
+              background: #5326d3; }
+  @media only screen and (max-width: 376px) {
+    .events {
+      padding: 30px 25px; }
+      .events .events-container .article-container {
+        flex-wrap: wrap; }
+        .events .events-container .article-container .own-calendar {
+          width: 100%;
+          flex: 100%;
+          min-width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+        .events .events-container .article-container .articles {
+          width: 100%;
+          flex: 100%;
+          min-width: 100%;
+          justify-content: center;
+          align-items: center; }
+          .events .events-container .article-container .articles .article {
+            flex: 100%;
+            width: auto;
+            max-width: 100%; } }

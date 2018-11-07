@@ -1,0 +1,96 @@
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+.about {
+  box-sizing: border-box;
+  padding: 0 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+  width: 100%; }
+  .about .content {
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+    padding: 15px 20px;
+    box-shadow: 0 5px 10px 1px rgba(57, 63, 72, 0.3); }
+    .about .content h2 {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      box-sizing: border-box;
+      width: 100%;
+      position: relative; }
+      .about .content h2 .underline {
+        padding-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #5326d3;
+        border-bottom: 3px solid #341690; }
+      .about .content h2:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: #cecdd0;
+        bottom: 0;
+        left: 0; }
+    .about .content .content-box h3 {
+      padding-left: 10px;
+      box-sizing: border-box; }
+    .about .content .content-box p {
+      padding-left: 10px;
+      box-sizing: border-box;
+      font-family: "ProximaNova-Regular";
+      letter-spacing: -0.5px;
+      line-height: 26px; }
+    .about .content .content-box .load {
+      font-family: "ProximaNova-Black";
+      letter-spacing: 2px;
+      color: #f73d53;
+      text-decoration: underline; }
+    .about .content .content-box ul {
+      border-radius: 4px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+      padding-left: 0;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      list-style: none; }
+      .about .content .content-box ul li {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+        line-height: 24px;
+        margin-bottom: -1px;
+        box-sizing: border-box;
+        font-family: "ProximaNova-Regular";
+        letter-spacing: -0.5px;
+        background-color: #fff;
+        border: 1px solid #ddd; }
+        .about .content .content-box ul li:first-letter {
+          text-transform: capitalize; }
+        .about .content .content-box ul li .mini-logo {
+          display: block;
+          font-family: "ProximaNova-Black";
+          letter-spacing: 2px;
+          margin-bottom: 5px; }
+        .about .content .content-box ul li:first-child {
+          border-top-right-radius: 4px; }
+        .about .content .content-box ul li:last-child {
+          border-bottom-left-radius: 4px; }
+      .about .content .content-box ul .list-title {
+        background: rgba(83, 54, 211, 0.5);
+        color: #341690;
+        font-family: "ProximaNova-Bold"; }
+    .about .content #file_frame {
+      width: 100%;
+      min-height: 550px; }
+  @media only screen and (max-width: 376px) {
+    .about {
+      padding: 0 25px; }
+      .about .content {
+        padding: 25px 15px; } }

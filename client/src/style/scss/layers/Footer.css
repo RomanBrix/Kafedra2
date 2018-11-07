@@ -1,0 +1,156 @@
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+.footer {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 25px 50px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #341690;
+  color: white; }
+  .footer .col-3 {
+    flex: 30%;
+    width: 30%;
+    max-width: 30%; }
+    .footer .col-3 .logo {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 20px; }
+      .footer .col-3 .logo img {
+        width: 70px; }
+      .footer .col-3 .logo .top {
+        text-transform: uppercase;
+        font-size: 1em;
+        line-height: 24px;
+        font-family: "ProximaNova-Bold";
+        margin-left: 10px; }
+    .footer .col-3 .copyright-univ {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      color: #7f7e81;
+      font-family: "Roboto-Light";
+      font-size: .9em;
+      line-height: 18px;
+      margin-bottom: 20px;
+      letter-spacing: -0.5px; }
+      .footer .col-3 .copyright-univ i {
+        font-size: 1.5em;
+        margin-right: 5px;
+        color: white;
+        align-self: center; }
+      .footer .col-3 .copyright-univ .opis {
+        display: block; }
+        .footer .col-3 .copyright-univ .opis span {
+          padding-left: 5px; }
+    .footer .col-3 .copyright-romka {
+      color: #7f7e81;
+      font-size: .9em;
+      margin-bottom: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-family: "Roboto-Light"; }
+      .footer .col-3 .copyright-romka i {
+        color: white;
+        margin: 0 5px;
+        margin-bottom: -4px; }
+      .footer .col-3 .copyright-romka a {
+        font-family: "ProximaNova-Bold";
+        margin-left: 5px;
+        font-size: 1.1em;
+        text-decoration: none;
+        color: white; }
+    .footer .col-3 h2 {
+      font-size: 1em; }
+    .footer .col-3 .footer-contacts {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column; }
+      .footer .col-3 .footer-contacts a {
+        text-decoration: none;
+        color: #7f7e81;
+        display: flex;
+        margin-bottom: 10px;
+        transition: .25s;
+        align-items: flex-start;
+        font-family: "Roboto-Light";
+        font-size: .9em;
+        letter-spacing: -0.5px;
+        justify-content: flex-start; }
+        .footer .col-3 .footer-contacts a i {
+          font-size: 1.1em;
+          color: white;
+          margin-right: 10px;
+          transition: .25s; }
+        .footer .col-3 .footer-contacts a:hover {
+          color: white; }
+          .footer .col-3 .footer-contacts a:hover i {
+            color: #f73d53; }
+    .footer .col-3 .mini-socials {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .footer .col-3 .mini-socials a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none; }
+        .footer .col-3 .mini-socials a li {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          font-size: 1.3em;
+          transition: .25s;
+          border-radius: 50%;
+          background: #230060; }
+          .footer .col-3 .mini-socials a li i {
+            color: #aeadb0;
+            margin-bottom: -7px;
+            transition: .25s; }
+        .footer .col-3 .mini-socials a:hover li i {
+          color: white; }
+  .footer .col-1 {
+    position: absolute;
+    flex: 100%;
+    width: calc(100%);
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    color: #7f7e81;
+    justify-content: flex-start;
+    left: 0;
+    background: #230060; }
+  @media only screen and (max-width: 376px) {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .footer .col-1 {
+        display: none; }
+      .footer .col-3 {
+        flex: 100%;
+        width: 100%;
+        max-width: 100%; }
+        .footer .col-3 .copyright-romka {
+          margin-bottom: 10px; }
+        .footer .col-3 .mini-socials {
+          margin-bottom: 25px; } }

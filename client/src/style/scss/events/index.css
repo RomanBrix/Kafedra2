@@ -1,0 +1,111 @@
+@import url(fonts/Roboto-Regular/fonts.css);
+@import url(fonts/Roboto-Light/fonts.css);
+@import url(fonts/ProximaNova-Regular/fonts.css);
+@import url(fonts/ProximaNova-Black/fonts.css);
+@import url(fonts/ProximaNova-Bold/fonts.css);
+@import url(fonts/ProximaNova-Light/fonts.css);
+@import url(fonts/ProximaNova-LightIt/fonts.css);
+.events-big {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 25px; }
+  .events-big .events-container {
+    box-sizing: border-box;
+    background: white;
+    width: 100%;
+    padding: 25px 25px; }
+    .events-big .events-container h2 {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      box-sizing: border-box;
+      width: 100%;
+      position: relative; }
+      .events-big .events-container h2 .underline {
+        padding-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #5326d3;
+        border-bottom: 3px solid #341690; }
+      .events-big .events-container h2 .little-head {
+        color: #7f7e81;
+        font-size: .7em;
+        font-family: "Roboto-Light";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: .25s; }
+        .events-big .events-container h2 .little-head i {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: -3px;
+          margin-left: 15px;
+          transition: .25s; }
+        .events-big .events-container h2 .little-head:hover {
+          color: #5326d3; }
+          .events-big .events-container h2 .little-head:hover i {
+            color: #5326d3; }
+      .events-big .events-container h2:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: #cecdd0;
+        bottom: 0;
+        left: 0; }
+    .events-big .events-container .article-event {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      box-sizing: border-box;
+      justify-content: space-between; }
+      .events-big .events-container .article-event .article {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 30%;
+        max-width: 30%;
+        box-sizing: border-box;
+        flex: 30%;
+        margin: 20px 0;
+        cursor: pointer;
+        transition: .25s; }
+        .events-big .events-container .article-event .article .date-logo {
+          color: white;
+          margin-right: 20px;
+          width: 75px;
+          height: 75px;
+          border-radius: 50%;
+          background: #f73d53;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          transition: .25s; }
+          .events-big .events-container .article-event .article .date-logo .number {
+            font-family: "ProximaNova-Bold";
+            font-size: 1.4em; }
+          .events-big .events-container .article-event .article .date-logo .month {
+            font-family: "Roboto-Light";
+            font-size: .8em; }
+        .events-big .events-container .article-event .article .title {
+          max-width: 70%;
+          font-family: "Roboto-Light";
+          line-height: 20px;
+          letter-spacing: -0.5px; }
+        .events-big .events-container .article-event .article:hover {
+          transform: scale(1.02);
+          filter: drop-shadow(0px 0px 10px rgba(127, 126, 129, 0.3)); }
+          .events-big .events-container .article-event .article:hover .date-logo {
+            background: #5326d3; }
+  @media only screen and (max-width: 376px) {
+    .events-big .events-container .article-event {
+      flex-wrap: wrap; }
+      .events-big .events-container .article-event .article {
+        flex: 100%;
+        width: 100%;
+        max-width: 100%; } }
